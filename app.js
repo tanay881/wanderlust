@@ -19,7 +19,12 @@ async function main() {
 
 // view engine setup
 app.set('view engine', 'ejs');
+
+// join the views directory
 app.set('views', path.join(__dirname, 'views'));
+
+// paarse urlencoded bodies (as sent by HTML forms)
+app.use(express.urlencoded({ extended: true }));
 
 // server configuration
 app.listen(3000, () => {
@@ -51,3 +56,12 @@ app.get('/listings', async (req, res) => {
   const allListings = await Listing.find({});
   res.render('./listings/index.ejs', { allListings });
 });
+
+// show route
+app.get('/listings/:id', async (req, res) => {
+  const { id } = req.params;
+  const listing = await Listing.findById(id);
+  res.render('./listings/show.ejs', { listing });
+});
+
+// create route

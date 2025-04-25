@@ -11,10 +11,15 @@ const listingSchema = new Schema({
     type: String,
     required: true,
   },
-  imageUrl: {
-    type: String,
-    default: 'https://as1.ftcdn.net/v2/jpg/09/61/19/22/1000_F_961192237_jZyPwdtITDhzhe5IEV3nQ1D8SqQWK3ww.jpg',
-    set: (v) => v === " " ?  'https://as1.ftcdn.net/v2/jpg/09/61/19/22/1000_F_961192237_jZyPwdtITDhzhe5IEV3nQ1D8SqQWK3ww.jpg' : v
+  image: {
+    filename: {
+      type: String
+    },
+    url: {
+      type: String,
+      set: (v) => v === " " ?  'https://as1.ftcdn.net/v2/jpg/09/61/19/22/1000_F_961192237_jZyPwdtITDhzhe5IEV3nQ1D8SqQWK3ww.jpg' : v,
+      default: 'https://as1.ftcdn.net/v2/jpg/09/61/19/22/1000_F_961192237_jZyPwdtITDhzhe5IEV3nQ1D8SqQWK3ww.jpg'
+    }
   },
   price: {
     type: Number,
