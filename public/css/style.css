@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  /* font-family: inter, sans-serif; */
+  background-color: #fff;
+}
+
+/* navbar styling */
+.navbar {
+  height: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .offcanvas-end {
+    display: none;
+  }
+}
+
+/* index styling  */
+.heading {
+  margin-top: 2rem !important;
+  color: #4ea8e6;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.allCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  height: 22rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+.card img {
+  /* border: 1px solid red; */
+  min-height: 75%;
+  height: 15rem;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.card-details {
+  max-height: 25%;
+  line-height: 0.5rem;
+}
+
+.amenities-list {
+  /* width: 50%; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  border: 1px solid #3f3f3f54;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  color: #878787;
+}
+
+.guest-loved h5 {
+  font-weight: 500;
+}
+
+.rating {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 1px solid #3f3f3f54;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.review-count {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.card-details p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 1rem;
+}
+
+.card-location {
+  font-weight: 600;
+}
+
+.card-title {
+  color: #cdcdcd42;
+}
+
+.card-price {
+  margin-top: 1.5rem;
+  font-size: 1rem !important;
+  color: #878787;
+}
+
+.card-price span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2b2b2b;
+}
+
+/* footer styling  */
+.container-fluid {
+  padding: 1.5rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.7rem;
+}
+
+.social-links i {
+  font-size: 1.5rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* create listing styling  */
+.create-form {
+  padding: 2rem 4rem;
+}
+
+.btn-normal {
+  margin-top: 1rem;
+  background-color: #4ea8e6;
+  color: #fff;
+  border: none;
+}
+
+.btn-normal:hover {
+  background-color: #007acb;
+  color: #fff;
+}
+
+.btn-danger {
+  margin-top: 1rem;
+  border: none;
+  margin-left: 1rem;
+}
+
+/* show card styling */
+.show-heading {
+  margin-bottom: 2rem !important;
+}
+
+.show-card {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.allImg {
+  width: 100%;
+  height: 36rem;
+  /* border: 1px solid black; */
+  display: flex;
+  overflow: hidden;
+  border-radius: 1rem;
+  margin: 1rem 0;
+}
+
+.main-img {
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid blue; */
+  z-index: 1;
+  position: relative;
+}
+
+.main-img button {
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+  z-index: 2;
+  padding: 0.5rem 1rem;
+  border: none;
+  /* border-radius: 1rem; */
+}
+
+@media screen and (min-width: 1168px) {
+  .main-img button {
+    display: none;
+  }
+}
+
+.main-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-modal {
+  background-color: #4ea8e6;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+.btn-modal:hover {
+  background-color: #007acb;
+  color: #fff;
+}
+
+.images {
+  /* border: 1px solid green; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 0;
+}
+
+.images img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  padding-left: 0.5rem;
+}
+
+.card-info {
+  color: #878787;
+}
+
+@media screen and (max-width: 1168px) {
+  .images {
+    display: none;
+  }
+
+  .main-img {
+    width: 100%;
+  }
+
+  .main-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.modal-content {
+  background-color: #ffffff00;
+  border: none;
+}
+
+.modal-body {
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 8%;
+  right: 5%;
+  z-index: 2;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 18rem;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1168px) {
+  .sm-sc-modal {
+    display: none;
+  }
+}
+
+/* Make modal larger and center it */
+@media (min-width: 768px) {
+  .modal-dialog {
+    max-width: 900px;
+    margin: 1.5rem auto;
+  }
+  .carousel-item img {
+    height: 55vh;
+  }
+  .close-btn {
+    top: 6%;
+    right: 4%;
+  }
+}
+
+.modal.show .modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}

@@ -1,17 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>listings</title>
-</head>
+<% layout("/layouts/boilerplate") %>
 <body>
-  <h3>All Listings</h3>
-  <ul>
+  <h3 class="heading">All Listings</h3>
+  <!-- <form action="/listings/new" method="GET">
+    <button type="submit">Create New</button>
+  </form> -->
+  <div class="allCards">
     <% for (let listing of allListings) { %>
-      <li>
-        <h4><a href="/listings/<%= listing._id %>"><%= listing.title %></a></h4>
+      <a href="/listings/<%= listing._id %>" class="card-link">
+        <div class="card">
+          <img src="<%= listing.image.url[0] %>" class="card-image" alt="<%= listing.image.filename %>">
+          <div class="card-details">
+            <p class="card-location"><%= listing.location %>, <%= listing.country %></p>
+            <p class="card-title"><%= listing.title %></p>
+            <p class="card-price"><span>$ <%= listing.price %></span> per night</p>
+          </div>
+        </div>
+      </a>
     <% } %>
-  </ul>
-</body>
-</html>
+  </div>
+</body> 

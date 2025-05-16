@@ -1,0 +1,56 @@
+<% layout("/layouts/boilerplate") %>
+<body>
+  <h3 class="heading">Edit Listing</h3>
+
+  <div class="create-form">
+    <form class="row g-3" action="/listings/<%= listing._id %>?_method=PUT" method="POST">
+      <div class="col-12">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" class="form-control" name="listing[title]" id="title" value="<%= listing.title %>" required>
+      </div>
+      <div class="col-12">
+        <label for="description" class="form-label">Description</label>
+        <textarea type="text" class="form-control" name="listing[description]" id="description" required><%= listing.description %></textarea>
+      </div>
+      <div class="col-12">
+        <label for="price" class="form-label">Price</label>
+        <input type="number" class="form-control" name="listing[price]" id="price" value="<%= listing.price %>" required>
+      </div>
+      <div class="col-md-4">
+        <label for="image" class="form-label">Image URL-1</label>
+        <input type="text" class="form-control" name="listing[url]" id="url" placeholder="https://example.com/image.jpg" value="<%= listing.image.url[0] %>">
+      </div>
+      <div class="col-md-4">
+        <label for="image" class="form-label">Image URL-2</label>
+        <input type="text" class="form-control" name="listing[url]" id="url" placeholder="https://example.com/image.jpg" value="<%= listing.image.url[1] %>">
+      </div>
+      <div class="col-md-4">
+        <label for="image" class="form-label">Image URL-3</label>
+        <input type="text" class="form-control" name="listing[url]" id="url" placeholder="https://example.com/image.jpg" value="<%= listing.image.url[2] %>">
+      </div>
+      <div class="col-md-4">
+        <label for="image" class="form-label">Image URL-4</label>
+        <input type="text" class="form-control" name="listing[url]" id="url" placeholder="https://example.com/image.jpg" value="<%= listing.image.url[3] %>">
+      </div>
+      <div class="col-md-4">
+        <label for="image" class="form-label">Image URL-5</label>
+        <input type="text" class="form-control" name="listing[url]" id="url" placeholder="https://example.com/image.jpg" value="<%= listing.image.url[4] %>">
+      </div>
+      <div class="col-md-4">
+        <label for="image" class="form-label">Image URL-6</label>
+        <input type="text" class="form-control" name="listing[url]" id="url" placeholder="https://example.com/image.jpg" value="<%= listing.image.url[5] %>">
+      </div>
+      <div class="col-md-4">
+        <label for="location" class="form-label">Location</label>
+        <input type="text" class="form-control" name="listing[location]" id="location" value="<%= listing.location %>" required>
+      </div>
+      <div class="col-md-4">
+        <label for="country" class="form-label">Country</label>
+        <input type="text" class="form-control" name="listing[country]" id="country" value="<%= listing.country %>" required>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-normal">Edit Listing</button>
+      </div>
+    </form>
+  </div>
+</body>

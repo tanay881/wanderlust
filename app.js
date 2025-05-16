@@ -2,6 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const Listing = require('./models/listing');
 const path = require('path');
+const methodOverride = require('method-override');
+const ejsMate = require('ejs-mate');
 
 // express configuration
 const app = express();
@@ -20,11 +22,23 @@ async function main() {
 // view engine setup
 app.set('view engine', 'ejs');
 
+// use ejs-mate as the view engine
+app.engine('ejs', ejsMate);
+
 // join the views directory
 app.set('views', path.join(__dirname, 'views'));
 
+// middleware function
+// join the public directory for sarvicing static files and styling
+app.use(express.static(path.join(__dirname, '/public')));
+
+// middleware function
 // paarse urlencoded bodies (as sent by HTML forms)
 app.use(express.urlencoded({ extended: true }));
+
+// middleware function
+// method override
+app.use(methodOverride('_method'));
 
 // server configuration
 app.listen(3000, () => {
@@ -57,11 +71,66 @@ app.get('/listings', async (req, res) => {
   res.render('./listings/index.ejs', { allListings });
 });
 
+// new route
+app.get('/listings/new', (req, res) => {
+  res.render('listings/new.ejs');
+});
+
+// create route
+app.post('/listings', async (req, res) => {
+  const listing = req.body.listing;
+  const newListing = new Listing({
+    title: listing.title,
+    description: listing.description,
+    price: listing.price,
+    image: {
+      url: listing.url
+    },
+    location: listing.location,
+    country: listing.country
+  });
+  
+  await newListing.save();
+  res.redirect('/listings');
+});
+
+// edit route
+app.get('/listings/:id/edit', async (req, res) => {
+  const { id } = req.params;
+  const listing = await Listing.findById(id);
+  res.render('./listings/edit.ejs', { listing });
+});
+
+// update route
+app.put('/listings/:id', async (req, res) => {
+  const { id } = req.params;
+  const listing = req.body.listing;
+  const updatedListing = await Listing.findByIdAndUpdate(id, {
+    title: listing.title,
+    description: listing.description,
+    price: listing.price,
+    image: {
+      url: listing.url
+    },
+    location: listing.location,
+    country: listing.country
+  });
+
+  await updatedListing.save();
+  
+  res.redirect(`/listings/${id}`);
+});
+
+// delete route
+app.delete('/listings/:id', async (req, res) => {
+  const { id } = req.params;
+  await Listing.findByIdAndDelete(id);
+  res.redirect('/listings');
+});
+
 // show route
 app.get('/listings/:id', async (req, res) => {
   const { id } = req.params;
   const listing = await Listing.findById(id);
   res.render('./listings/show.ejs', { listing });
 });
-
-// create route
