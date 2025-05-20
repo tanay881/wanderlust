@@ -725,7 +725,7 @@ const sampleListings = [
     description: "Stay in a stylish room in a boutique hotel located in the heart of the city. Perfect for a weekend getaway or business trip. The hotel features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for solo travelers or couples looking for a city adventure. Enjoy the local art scene, nightlife, and diverse dining options.",
     image: {
       filename: "listingimage",
-      url: []
+      url: ["https://images.unsplash.com/photo-1732046038811-ebafd482f3e3?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1676719289921-99fbe6a140f8?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1625579803813-e1ffceb02405?q=80&w=3378&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1656007776687-334d1c15924f?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1739149895255-6fcb9802912d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1668289615470-5f39b5e14e46?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
     },
     price: 220,
     location: "Sinaia",
@@ -743,7 +743,7 @@ const sampleListings = [
     description: "Experience the beauty of the mountains in this charming lodge. Perfect for a winter getaway with stunning views and outdoor activities. The lodge features modern amenities, a cozy interior, and easy access to ski slopes. Ideal for relaxation and adventure. Enjoy skiing, snowboarding, and exploring the local area.",
     image: {
       filename: "listingimage",
-      url: []
+      url: ["https://images.unsplash.com/photo-1666557477306-4b8b54cfdafd?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1560418361-d57945a2952d?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1679916744431-216927f655a4?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1586812367172-afe2fecab27c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1709497185035-f2a95d203e08?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1668599086888-481798dea8d5?q=80&w=3400&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
     },
     price: 350,
     location: "Bad Wimsbach-Neydharting",
@@ -757,21 +757,21 @@ const sampleListings = [
   },
   {
     id: 43,
-    title: "Castle in Acireale",
-    description: "Experience the charm of history in this beautiful castle. Perfect for a family getaway or romantic retreat. The castle features classic decor, a fully equipped kitchen, and a lovely garden. Ideal for relaxation and exploring the local area. Enjoy nearby attractions, local restaurants, and outdoor activities.",
+    title: "The Great Wall of China",
+    description: "Experience the charm of history in this beautiful castle. Perfect for a family getaway or romantic retreat. The castle features classic decor, a fully equipped kitchen, and a lovely garden. Ideal for relaxation and exploring the local area. Enjoy nearby attractions, local restaurants, and outdoor activities.", 
     image: {
       filename: "listingimage",
-      url: []
+      url: ["https://images.unsplash.com/photo-1608037521277-154cd1b89191?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1712664347089-6be82d02a2f0?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1686807309124-c797d0d2610c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1676468708507-d7970ce6445b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1712976753514-a2a385bf728e?q=80&w=3415&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
     },
     price: 250,
-    location: "Acireale",
-    country: "Italy",
+    location: "Beijing",
+    country: "China",
     rating: 4.8,
     reviews: 140,
     amenities: ["Wi-Fi", "Fireplace", "Kitchen", "Parking", "Garden"],
     isLiked: false,
     isSaved: false,
-    isBooked: false
+    isBooked: false  
   }, 
   {
     id: 44,
@@ -779,7 +779,7 @@ const sampleListings = [
     description: "Experience the thrill of Brazilian Carnival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: []
+      url: ["https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?q=80&w=3626&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1679689962301-adfa3c77d624?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1522008629172-0c17aa47d1ee?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1632184078944-b8a9cd828a57?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1576547849475-57662ff255ec?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1604664474914-39713aa96dbf?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
     },
     price: 400,
     location: "Rio de Janeiro",
@@ -793,36 +793,36 @@ const sampleListings = [
   },
   {
     id: 45,
-    title: "Room in boutique hotel",
-    description: "Stay in a stylish room in a boutique hotel located in the heart of the city. Perfect for a weekend getaway or business trip. The hotel features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for solo travelers or couples looking for a city adventure. Enjoy the local art scene, nightlife, and diverse dining options.",
+    title: "FootBall World Cup in Qatar",
+    description: "Experience the thrill of Football World Cup in Qatar in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: []
+      url: ["https://images.unsplash.com/photo-1700901742651-6b353164caf3?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1647849402208-01775e9c9fb3?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1683334086821-62738dd333ce?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1689758919422-4cbcd14313ce?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1741159273037-a8bb9f22fddf?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1626455848883-eb1c5203d379?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
     },
-    price: 220,
-    location: "Sinaia",
-    country: "Romania",
-    rating: 4.7,
-    reviews: 130,
-    amenities: ["Wi-Fi", "Air Conditioning", "Kitchen", "Parking"],
+    price: 400,
+    location: "Doha",
+    country: "Qatar",
+    rating: 4.9,
+    reviews: 300,
+    amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
     isBooked: false
   }, 
   {
     id: 46,
-    title: "Bad Wimsbach-Neydharting",
-    description: "Experience the beauty of the mountains in this charming lodge. Perfect for a winter getaway with stunning views and outdoor activities. The lodge features modern amenities, a cozy interior, and easy access to ski slopes. Ideal for relaxation and adventure. Enjoy skiing, snowboarding, and exploring the local area.",
+    title: "Tallinn Festival",
+    description: "Experience the thrill of Tallinn Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: []
+      url: ["https://images.unsplash.com/photo-1709862366377-54b16f3e51f9?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1452868195396-89c1af3b1b2e?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1617900019202-ea44bdc2afc3?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1570302156974-8cca80c1f901?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1548267839-d1f27b83b6d3?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1592859858762-43e59d2ca8e6?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
     },
-    price: 350,
-    location: "Bad Wimsbach-Neydharting",
-    country: "Austria",
-    rating: 4.8,
-    reviews: 110,
-    amenities: ["Wi-Fi", "Air Conditioning", "Hot Tub", "Ski Access"],
+    price: 400,
+    location: "Tallinn",
+    country: "Estonia",
+    rating: 4.9,
+    reviews: 300,
+    amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
     isBooked: false
@@ -833,7 +833,7 @@ const sampleListings = [
     description: "Experience the thrill of Argentinian Tango Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: []
+      url: ["https://images.unsplash.com/photo-1610678318647-ea23dccf1a9d?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","https://images.unsplash.com/flagged/photo-1571684387351-60533c09f515?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1677110758391-b458bc072ebf?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1711472365307-cc0ff86c3943?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1582838840889-98a78a4a6797?q=80&w=3502&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1739833131265-9a0f6b5b4851?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
     },
     price: 400,
     location: "Buenos Aires",
@@ -851,7 +851,7 @@ const sampleListings = [
     description: "Experience the thrill of Chilean Wine Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: []
+      url: ["https://images.unsplash.com/photo-1745554488911-2149ee18693d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1738620112394-41d44fdeff66?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1662312866200-3454c5b502a9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1667745992583-015851b0d7a8?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1601598276252-08c9fc5d0b50?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1624712639372-cef4374be413?q=80&w=3384&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
     },  
     price: 400,
     location: "Santiago",
@@ -869,7 +869,7 @@ const sampleListings = [
     description: "Experience the thrill of Bhutanese Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: []
+      url: ["https://images.unsplash.com/photo-1667984866675-5daf6fcb8175?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1668587629217-7567ae4f7b4d?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1661952578770-79010299a9f9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1580649851649-992b28f56e98?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1566020589263-891b809ebf4b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1622778893561-36c7b94a63c1?q=80&w=3008&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
     },
     price: 400,
     location: "Thimphu",
@@ -887,7 +887,7 @@ const sampleListings = [
     description: "Experience the thrill of Kashmir Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: []
+      url: ["https://images.unsplash.com/photo-1715457573748-8e8a70b2c1be?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1627894485200-b92fb4353967?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1646204894165-95ed03d988ad?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1568889753852-196c487a536e?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1601047095317-25a0ad9933f1?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
     },
     price: 400,
     location: "Srinagar",
@@ -901,21 +901,21 @@ const sampleListings = [
   },
   {
     id: 51,
-    title: "Qatar Country in the Middle East",
-    description: "Experience the thrill of Qatar Country in the Middle East in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    title: "Turkey Festival",
+    description: "Experience the thrill of Turkey Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: []
+      url: ["https://images.unsplash.com/photo-1510253687831-0f982d7862fc?q=80&w=3534&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1518084823714-2f59a7315a39?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1580139644189-14a08f064717?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1623621534850-d325a1980c7e?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1490079397423-a3931fd75940?q=80&w=3628&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1605022936264-d57a9e20942a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
     },
     price: 400,
-    location: "Doha",
-    country: "Qatar",
+    location: "Istanbul",
+    country: "Turkey",
     rating: 4.9,
     reviews: 300,
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
-    isSaved: false,   
-    isBooked: false 
+    isSaved: false,
+    isBooked: false
   },
   {
     id: 52,
@@ -923,7 +923,7 @@ const sampleListings = [
     description: "Experience the thrill of Switzerland Country in Europe in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: []
+      url: ["https://images.unsplash.com/photo-1744178386519-d0836189a8ef?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1583132831599-1aeab5ff0e55?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1738600387873-481b87e15fca?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1705361819838-b249bad5514f?q=80&w=3365&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1716964718700-3d817c673186?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1668901406396-359e5dccd84b?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
     },
     price: 400,
     location: "Zurich",
@@ -933,6 +933,150 @@ const sampleListings = [
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
+    isBooked: false
+  },
+  {
+    id: 53,
+    title: "Queenstown in New Zealand",
+    description: "Experience the thrill of Queenstown Country in New Zealand in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    image: {  
+      filename: "listingimage",
+      url: ["https://images.unsplash.com/photo-1740658649996-690a4907858a?q=80&w=3504&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1740658642224-3c37bab6e56d?q=80&w=3504&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1512017615494-fdf6146235ff?q=80&w=3536&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1740657476863-9fd0dbbbc9c2?q=80&w=3504&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1710348672935-ffddef5b03a7?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1496429538646-0f0b0458cedd?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+    },
+    price: 400,
+    location: "Queenstown",
+    country: "New Zealand",
+    rating: 4.9,
+    reviews: 300,
+    amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
+    isLiked: false,
+    isSaved: false,
+    isBooked: false
+  }, 
+  {
+    id: 54,
+    title: "Monte Carlo in Monaco",
+    description: "Experience the thrill of Monte Carlo Country in Monaco in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    image: {
+      filename: "listingimage",
+      url: ["https://images.unsplash.com/photo-1526675261026-b83db55e4035?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1632403826558-4d51fbe432d9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1659557267802-39507512f78e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1744366807017-e3de50aef30b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1660153857443-17711f91e247?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1716287724762-27875accce5f?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+    },
+    price: 400,
+    location: "Monte Carlo",
+    country: "Monaco",  
+    rating: 4.9,
+    reviews: 300,
+    amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
+    isLiked: false,
+    isSaved: false,
+    isBooked: false
+  }, 
+  {
+    id: 55,
+    title: "Bejing in China",
+    description: "Experience the thrill of Bejing in China in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    image: {
+      filename: "listingimage",
+      url: ["https://images.unsplash.com/photo-1584872589930-e99fe5bf4408?q=80&w=3324&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1543158015-04650a9d832a?q=80&w=3433&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1614555383820-941c466f1b52?q=80&w=3624&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1603286661393-b62e79ed564b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1706066643065-23242de5ea79?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1715320555580-521db1a426e1?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+    },
+    price: 400,
+    location: "Bejing",
+    country: "China",
+    rating: 4.9,
+    reviews: 300,
+    amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
+    isLiked: false,
+    isSaved: false,
+    isBooked: false
+  }, 
+  {
+    id: 56,
+    title: "Tokyo in Japan",
+    description: "Experience the thrill of Tokyo in Japan in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    image: {
+      filename: "listingimage",
+      url: ["https://images.unsplash.com/photo-1711181138064-43c2e2239a45?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1679097844839-ab66200a1bbd?q=80&w=3433&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1634110555127-12685786b487?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1671987343389-38d804949117?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1702887010536-b1a5e8ad6b3b?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1711615048532-489c892a288e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+    },
+    price: 400,
+    location: "Tokyo",
+    country: "Japan",
+    rating: 4.9,
+    reviews: 300,
+    amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
+    isLiked: false,
+    isSaved: false,
+    isBooked: false
+  }, 
+  {
+    id: 57,
+    title: "Seoul in South Korea",
+    description: "Experience the thrill of Seoul in South Korea in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    image: {
+      filename: "listingimage",
+      url: ["https://images.unsplash.com/photo-1719820905709-9858ec199d41?q=80&w=3629&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1711902048407-9cbab08c58a5?q=80&w=3544&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1578648693974-9438ebc063bb?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1578648574417-15941a4751bf?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1662280709023-84c475d3c81f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1639905808227-4c987d4a71bd?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+    },
+    price: 400,
+    location: "Seoul",
+    country: "South Korea",
+    rating: 4.9,
+    reviews: 300,
+    amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
+    isLiked: false,
+    isSaved: false,
+    isBooked: false
+  },
+  {
+    id: 58,
+    title: "Mount Averest in Nepal",
+    description: "Experience the thrill of Mount Averest in Nepal in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    image: {
+      filename: "listingimage",
+      url: ["https://images.unsplash.com/photo-1615462067592-d7ae31015538?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1664690174670-d4d733a41223?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1559578054-19bcb3e215d6?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1697730400710-9e565f54869e?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1720810757171-ff8e697a9f13?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1732737295442-59b19f129544?q=80&w=3383&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+    },
+    price: 400,
+    location: "Kathmandu",
+    country: "Nepal",
+    rating: 4.9,
+    reviews: 300,
+    amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
+    isLiked: false,
+    isSaved: false, 
+    isBooked: false
+  },
+  {
+    id: 59,
+    title: "Amazon Rainforest in Brazil",
+    description: "Experience the thrill of Amazon Rainforest in Brazil in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience Enjoy the nightlife, dining, and world-class shows.",
+    image: {
+      filename: "listingimage",
+      url: ["https://images.unsplash.com/photo-1695774863742-67ef15304c50?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1700753146836-7091d0b28635?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1700753618948-79f177a3b19e?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1570970692742-dd7523a4f3c5?q=80&w=3544&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1710136847057-e800a839d554?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1653675838537-bd00aa16cbca?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+    },
+    price: 400,
+    location: "Manaus",
+    country: "Brazil",
+    rating: 4.9,
+    reviews: 300,
+    amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
+    isLiked: false,
+    isSaved: false,
+    isBooked: false
+  }, 
+  {
+    id: 60,
+    title: "Pyramids of Giza in Egypt",
+    description: "Experience the thrill of Pyramids of Giza in Egypt in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    image: {
+      filename: "listingimage",
+      url: ["https://images.unsplash.com/photo-1684457717962-09c4c4347c13?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1613546190879-6657d93839e6?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1722595053086-eb36d4c3a6f5?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1628503218283-6ddeac69dfea?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1661906977668-ece2c96385c4?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1626692880062-35c360fb6afc?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+    },
+    price: 400,
+    location: "Cairo",
+    country: "Egypt",
+    rating: 4.9,
+    reviews: 300,
+    amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
+    isLiked: false,
+    isSaved: false, 
     isBooked: false
   }
 ];

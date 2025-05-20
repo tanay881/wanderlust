@@ -37,7 +37,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .card {
@@ -87,6 +87,7 @@ body {
   border: 1px solid #3f3f3f54;
   padding: 1.5rem;
   border-radius: 1rem;
+  font-size: 0.75rem;
 }
 
 .review-count {
@@ -146,6 +147,11 @@ body {
 /* create listing styling  */
 .create-form {
   padding: 2rem 4rem;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: left;
 }
 
 .btn-normal {

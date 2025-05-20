@@ -1,21 +1,37 @@
 <% layout("/layouts/boilerplate") %>
-<body>
-  <h3 class="heading">All Listings</h3>
-  <!-- <form action="/listings/new" method="GET">
-    <button type="submit">Create New</button>
-  </form> -->
-  <div class="allCards">
-    <% for (let listing of allListings) { %>
-      <a href="/listings/<%= listing._id %>" class="card-link">
-        <div class="card">
-          <img src="<%= listing.image.url[0] %>" class="card-image" alt="<%= listing.image.filename %>">
-          <div class="card-details">
-            <p class="card-location"><%= listing.location %>, <%= listing.country %></p>
-            <p class="card-title"><%= listing.title %></p>
-            <p class="card-price"><span>$ <%= listing.price %></span> per night</p>
+
+  <body>
+    <h3 class="heading">All Listings</h3>
+    <!-- <form action="/listings/new" method="GET">
+      <button type="submit">Create New</button>
+    </form> -->
+    <div class="allCards">
+      <% for (let listing of allListings) { %>
+        <a href="/listings/<%= listing._id %>" class="card-link">
+          <div class="card">
+            <img src="<%= listing.image.url[0] %>" class="card-image" alt="<%= listing.image.filename %>">
+            <div class="card-details">
+              <p class="card-location">
+                <%= listing.location %>, <%= listing.country %>
+              </p>
+              <p class="card-title">
+                <%= listing.title %>
+              </p>
+              <p class="card-price"><span>$ <%= listing.price %></span> per night</p>
+            </div>
           </div>
-        </div>
-      </a>
-    <% } %>
-  </div>
-</body> 
+        </a>
+      <% } %>
+
+      <!-- Adding Pagination   -->
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
