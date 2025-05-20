@@ -2,10 +2,18 @@ const sampleListings = [
   {
     id: 1,
     title: "Beautiful Beach House",
-    description: "A stunning beach house with ocean views and perfect for a family getaway or romantic retreat. Enjoy the sun, sand, and surf in this beautiful home. The property features a spacious deck, modern amenities, and is located just steps away from the beach. Ideal for relaxation and creating unforgettable memories. This house also offers a fully equipped kitchen, free Wi-Fi, and a cozy fireplace for chilly evenings. Nearby attractions include local restaurants, hiking trails, and water sports activities.",
+    description:
+      "A stunning beach house with ocean views and perfect for a family getaway or romantic retreat. Enjoy the sun, sand, and surf in this beautiful home. The property features a spacious deck, modern amenities, and is located just steps away from the beach. Ideal for relaxation and creating unforgettable memories. This house also offers a fully equipped kitchen, free Wi-Fi, and a cozy fireplace for chilly evenings. Nearby attractions include local restaurants, hiking trails, and water sports activities.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1590597722972-3cb12f695165?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1580682271412-605916149d17?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1673783807734-3dd0ffbf6784?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1688602082765-4619f9b6f844?q=80&w=2794&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1682285210821-5d1b5a406b97?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1645072488151-36b2afec8128?q=80&w=3532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1590597722972-3cb12f695165?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1580682271412-605916149d17?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1673783807734-3dd0ffbf6784?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1688602082765-4619f9b6f844?q=80&w=2794&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1682285210821-5d1b5a406b97?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1645072488151-36b2afec8128?q=80&w=3532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 250,
     location: "Malibu, CA",
@@ -20,10 +28,18 @@ const sampleListings = [
   {
     id: 2,
     title: "Charming Mountain Cabin",
-    description: "Escape to the mountains in this charming cabin surrounded by nature. Perfect for hiking, skiing, or simply relaxing by the fireplace. The cabin features rustic decor, a fully equipped kitchen, and a large deck with stunning mountain views. Enjoy outdoor activities like hiking, skiing, and fishing in the nearby lakes and trails. This cabin is ideal for couples or families looking for a peaceful retreat.",
+    description:
+      "Escape to the mountains in this charming cabin surrounded by nature. Perfect for hiking, skiing, or simply relaxing by the fireplace. The cabin features rustic decor, a fully equipped kitchen, and a large deck with stunning mountain views. Enjoy outdoor activities like hiking, skiing, and fishing in the nearby lakes and trails. This cabin is ideal for couples or families looking for a peaceful retreat.",
     image: {
       filename: "listingimage",
-      url: ["https://plus.unsplash.com/premium_photo-1673195440514-a6ac5a7b032c?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1665182118181-11b1111a9a23?q=80&w=2762&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1625365755915-04b6cd9be1ad?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1663788923461-0f21ad9f6da7?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1739907549777-6ff7cd3921fb?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1603817431524-5ca5524536c9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://plus.unsplash.com/premium_photo-1673195440514-a6ac5a7b032c?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1665182118181-11b1111a9a23?q=80&w=2762&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1625365755915-04b6cd9be1ad?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1663788923461-0f21ad9f6da7?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1739907549777-6ff7cd3921fb?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1603817431524-5ca5524536c9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 180,
     location: "Aspen, CO",
@@ -38,10 +54,18 @@ const sampleListings = [
   {
     id: 3,
     title: "Luxury City Apartment",
-    description: "Experience the city life in this luxury apartment located in the heart of downtown. Close to shopping, dining, and entertainment. The apartment features modern decor, a fully equipped kitchen, and access to a rooftop pool and gym. Ideal for business travelers or city explorers. Enjoy the vibrant nightlife, cultural attractions, and local cuisine just steps away from your door.",
+    description:
+      "Experience the city life in this luxury apartment located in the heart of downtown. Close to shopping, dining, and entertainment. The apartment features modern decor, a fully equipped kitchen, and access to a rooftop pool and gym. Ideal for business travelers or city explorers. Enjoy the vibrant nightlife, cultural attractions, and local cuisine just steps away from your door.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1645484648990-40b4aae27621?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1584989567439-7522cae5270b?q=80&w=3010&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1717418124325-478592c373ea?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1691547068199-d533e924836e?q=80&w=3433&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1666664570214-b5b3942e7e87?q=80&w=3546&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1622862788049-8c5e92281336?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1645484648990-40b4aae27621?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1584989567439-7522cae5270b?q=80&w=3010&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1717418124325-478592c373ea?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1691547068199-d533e924836e?q=80&w=3433&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1666664570214-b5b3942e7e87?q=80&w=3546&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1622862788049-8c5e92281336?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 300,
     location: "New York, NY",
@@ -56,10 +80,18 @@ const sampleListings = [
   {
     id: 4,
     title: "Cozy Countryside Cottage",
-    description: "Relax in this cozy cottage located in the countryside. Perfect for a peaceful getaway with beautiful views and outdoor activities. The cottage features a charming interior, a fully equipped kitchen, and a lovely garden. Enjoy hiking, biking, and exploring the local farms and markets. Ideal for couples or families looking to escape the hustle and bustle of city life.",
+    description:
+      "Relax in this cozy cottage located in the countryside. Perfect for a peaceful getaway with beautiful views and outdoor activities. The cottage features a charming interior, a fully equipped kitchen, and a lovely garden. Enjoy hiking, biking, and exploring the local farms and markets. Ideal for couples or families looking to escape the hustle and bustle of city life.",
     image: {
       filename: "listingimage",
-      url: ["https://plus.unsplash.com/premium_photo-1692449759672-7e46ec27ea0a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1665706797114-94e06351ddf5?q=80&w=3548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1703713050891-0e36fe2fd5bc?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1733705004851-0a77392efc32?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1675324517011-24d2c741c22f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1698513455085-891e20e49267?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://plus.unsplash.com/premium_photo-1692449759672-7e46ec27ea0a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1665706797114-94e06351ddf5?q=80&w=3548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1703713050891-0e36fe2fd5bc?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1733705004851-0a77392efc32?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1675324517011-24d2c741c22f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1698513455085-891e20e49267?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 150,
     location: "Napa Valley, CA",
@@ -74,10 +106,18 @@ const sampleListings = [
   {
     id: 5,
     title: "Modern Loft in the City",
-    description: "Stay in this stylish loft located in a trendy neighborhood. Close to cafes, shops, and cultural attractions. The loft features modern decor, high ceilings, and large windows with city views. Ideal for young professionals or couples looking for a vibrant city experience. Enjoy the local art scene, nightlife, and diverse dining options.",
+    description:
+      "Stay in this stylish loft located in a trendy neighborhood. Close to cafes, shops, and cultural attractions. The loft features modern decor, high ceilings, and large windows with city views. Ideal for young professionals or couples looking for a vibrant city experience. Enjoy the local art scene, nightlife, and diverse dining options.",
     image: {
       filename: "listingimage",
-      url: ["https://plus.unsplash.com/premium_photo-1673002093131-a6a9500ff1f7?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1744868562576-426e637d740f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1670177307694-0bf661a802b4?q=80&w=3564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1659932538830-ebfaf7dffda8?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1712000450121-5a658ccb33cc?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1610234459268-7ab0ec54b912?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://plus.unsplash.com/premium_photo-1673002093131-a6a9500ff1f7?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1744868562576-426e637d740f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1670177307694-0bf661a802b4?q=80&w=3564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1659932538830-ebfaf7dffda8?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1712000450121-5a658ccb33cc?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1610234459268-7ab0ec54b912?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 220,
     location: "San Francisco, CA",
@@ -92,10 +132,18 @@ const sampleListings = [
   {
     id: 6,
     title: "Seaside Villa",
-    description: "Enjoy breathtaking ocean views in this luxurious seaside villa. Perfect for a romantic getaway or family vacation. The villa features modern amenities, a private pool, and direct beach access. Ideal for relaxation and water activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
+    description:
+      "Enjoy breathtaking ocean views in this luxurious seaside villa. Perfect for a romantic getaway or family vacation. The villa features modern amenities, a private pool, and direct beach access. Ideal for relaxation and water activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1501509497947-782640bc1412?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1574167701654-856d6406583e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1564114330597-e94389745905?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1713227439391-03c037b6b91a?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1581220494446-df8064c3a82a?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1730402733045-269e1b446856?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1501509497947-782640bc1412?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1574167701654-856d6406583e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1564114330597-e94389745905?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1713227439391-03c037b6b91a?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1581220494446-df8064c3a82a?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1730402733045-269e1b446856?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Miami, FL",
@@ -110,10 +158,18 @@ const sampleListings = [
   {
     id: 7,
     title: "Historic Castle Stay",
-    description: "Experience a fairytale in this historic castle located in the countryside. Perfect for a unique getaway with stunning architecture and beautiful gardens. The castle features luxurious rooms, a grand dining hall, and guided tours of the property. Ideal for history buffs or couples looking for a romantic escape. Explore the local area, enjoy outdoor activities, and indulge in fine dining.",
+    description:
+      "Experience a fairytale in this historic castle located in the countryside. Perfect for a unique getaway with stunning architecture and beautiful gardens. The castle features luxurious rooms, a grand dining hall, and guided tours of the property. Ideal for history buffs or couples looking for a romantic escape. Explore the local area, enjoy outdoor activities, and indulge in fine dining.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1673707379112-34cd88f512ff?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1699566448247-1627bee256d0?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1710524077171-a6c0bac99e04?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1665134680242-e45d780a2c52?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1610396772087-82efc678295f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1567802474769-eb1d9ebc9416?q=80&w=3550&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1673707379112-34cd88f512ff?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1699566448247-1627bee256d0?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1710524077171-a6c0bac99e04?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1665134680242-e45d780a2c52?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1610396772087-82efc678295f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1567802474769-eb1d9ebc9416?q=80&w=3550&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 500,
     location: "Scotland, UK",
@@ -128,10 +184,18 @@ const sampleListings = [
   {
     id: 8,
     title: "Chic Urban Studio",
-    description: "Stay in this chic urban studio located in a vibrant neighborhood. Close to cafes, shops, and cultural attractions. The studio features modern decor, a fully equipped kitchen, and easy access to public transportation. Ideal for solo travelers or couples looking for a city adventure. Enjoy the local art scene, nightlife, and diverse dining options.",
+    description:
+      "Stay in this chic urban studio located in a vibrant neighborhood. Close to cafes, shops, and cultural attractions. The studio features modern decor, a fully equipped kitchen, and easy access to public transportation. Ideal for solo travelers or couples looking for a city adventure. Enjoy the local art scene, nightlife, and diverse dining options.",
     image: {
       filename: "listingimage",
-      url: ["https://plus.unsplash.com/premium_photo-1674504329698-e407a536de29?q=80&w=3568&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1580597150207-0e21d0cb03d3?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1592428285240-545505c85c11?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1722229106654-b5e0a3092734?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1731450453043-4730a9b2f2fc?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1713815714379-13d449855a6d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://plus.unsplash.com/premium_photo-1674504329698-e407a536de29?q=80&w=3568&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1580597150207-0e21d0cb03d3?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1592428285240-545505c85c11?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1722229106654-b5e0a3092734?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1731450453043-4730a9b2f2fc?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1713815714379-13d449855a6d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 180,
     location: "Chicago, IL",
@@ -146,10 +210,18 @@ const sampleListings = [
   {
     id: 9,
     title: "Tropical Paradise Bungalow",
-    description: "Relax in this tropical paradise bungalow located on a private beach. Perfect for a romantic getaway or family vacation. The bungalow features modern amenities, a private pool, and stunning ocean views. Ideal for relaxation and water activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
+    description:
+      "Relax in this tropical paradise bungalow located on a private beach. Perfect for a romantic getaway or family vacation. The bungalow features modern amenities, a private pool, and stunning ocean views. Ideal for relaxation and water activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
     image: {
       filename: "listingimage",
-      url: ["https://plus.unsplash.com/premium_photo-1677829177642-30def98b0963?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1669317566483-d3327adeda10?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1551518157-eeb214ad83cc?q=80&w=3544&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1598751240191-fbe4a9a30e02?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1667668669608-499c3282f0d1?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1663670043372-ae7481894d76?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://plus.unsplash.com/premium_photo-1677829177642-30def98b0963?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1669317566483-d3327adeda10?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1551518157-eeb214ad83cc?q=80&w=3544&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1598751240191-fbe4a9a30e02?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1667668669608-499c3282f0d1?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1663670043372-ae7481894d76?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 350,
     location: "Bali",
@@ -164,10 +236,18 @@ const sampleListings = [
   {
     id: 10,
     title: "Rustic Farmhouse Retreat",
-    description: "Escape to the countryside in this rustic farmhouse retreat. Perfect for a peaceful getaway with beautiful views and outdoor activities. The farmhouse features a charming interior, a fully equipped kitchen, and a lovely garden. Enjoy hiking, biking, and exploring the local farms and markets. Ideal for couples or families looking to escape the hustle and bustle of city life.",
+    description:
+      "Escape to the countryside in this rustic farmhouse retreat. Perfect for a peaceful getaway with beautiful views and outdoor activities. The farmhouse features a charming interior, a fully equipped kitchen, and a lovely garden. Enjoy hiking, biking, and exploring the local farms and markets. Ideal for couples or families looking to escape the hustle and bustle of city life.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1693390847239-7147aa326efb?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1614909395551-a2c78308fc2b?q=80&w=3574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1723322146504-6861be8d880e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1614354323793-05cf10832db4?q=80&w=2792&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1610365610351-f9d481c7a7ed?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1715792670854-b89b1fbcebdc?q=80&w=3482&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1693390847239-7147aa326efb?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1614909395551-a2c78308fc2b?q=80&w=3574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1723322146504-6861be8d880e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1614354323793-05cf10832db4?q=80&w=2792&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1610365610351-f9d481c7a7ed?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1715792670854-b89b1fbcebdc?q=80&w=3482&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 200,
     location: "Amish Country, PA",
@@ -182,10 +262,18 @@ const sampleListings = [
   {
     id: 11,
     title: "Elegant Parisian Apartment",
-    description: "Experience the charm of Paris in this elegant apartment located in a historic building. Close to cafes, shops, and cultural attractions. The apartment features classic decor, a fully equipped kitchen, and stunning city views. Ideal for couples or solo travelers looking for a romantic escape. Enjoy the local art scene, nightlife, and diverse dining options.",
+    description:
+      "Experience the charm of Paris in this elegant apartment located in a historic building. Close to cafes, shops, and cultural attractions. The apartment features classic decor, a fully equipped kitchen, and stunning city views. Ideal for couples or solo travelers looking for a romantic escape. Enjoy the local art scene, nightlife, and diverse dining options.",
     image: {
       filename: "listingimage",
-      url: ["https://plus.unsplash.com/premium_photo-1661919210043-fd847a58522d?q=80&w=3020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1632854270262-bb5208ed2488?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1590101924995-1a174ba0f87c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1662142522117-71af32215271?q=80&w=3376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1500760422260-b11694cdb6e9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1572956062109-fed54c9ab826?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://plus.unsplash.com/premium_photo-1661919210043-fd847a58522d?q=80&w=3020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1632854270262-bb5208ed2488?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1590101924995-1a174ba0f87c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1662142522117-71af32215271?q=80&w=3376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1500760422260-b11694cdb6e9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1572956062109-fed54c9ab826?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 250,
     location: "Paris",
@@ -200,10 +288,18 @@ const sampleListings = [
   {
     id: 12,
     title: "Serene Lake House",
-    description: "Relax in this serene lake house located on a private lake. Perfect for a romantic getaway or family vacation. The house features modern amenities, a private dock, and stunning lake views. Ideal for relaxation and water activities. Explore the local marine life, enjoy fishing, or simply relax by the lake.",
+    description:
+      "Relax in this serene lake house located on a private lake. Perfect for a romantic getaway or family vacation. The house features modern amenities, a private dock, and stunning lake views. Ideal for relaxation and water activities. Explore the local marine life, enjoy fishing, or simply relax by the lake.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1721495843336-dd5a981d3857?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1721495843433-682cfa9df255?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1721495843207-393900c88c7d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1685649416996-fadaa8d8dd00?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1701016696692-6aab9b2dc4b5?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1651319405596-e0a390521887?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1721495843336-dd5a981d3857?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1721495843433-682cfa9df255?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1721495843207-393900c88c7d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1685649416996-fadaa8d8dd00?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1701016696692-6aab9b2dc4b5?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1651319405596-e0a390521887?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 300,
     location: "Lake Tahoe, NV",
@@ -218,10 +314,18 @@ const sampleListings = [
   {
     id: 13,
     title: "Stylish Beachfront Condo",
-    description: "Stay in this stylish beachfront condo with stunning ocean views. Perfect for a romantic getaway or family vacation. The condo features modern amenities, a private balcony, and direct beach access. Ideal for relaxation and water activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
+    description:
+      "Stay in this stylish beachfront condo with stunning ocean views. Perfect for a romantic getaway or family vacation. The condo features modern amenities, a private balcony, and direct beach access. Ideal for relaxation and water activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1655340593776-f514ab07547e?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1624323112976-2dd6e4712d3a?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1636522302567-032111e4aff4?q=80&w=3536&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1715366468291-af34067b42a4?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1704856480956-98ff431761fb?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1621573203316-4f074b0d1f62?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1655340593776-f514ab07547e?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1624323112976-2dd6e4712d3a?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1636522302567-032111e4aff4?q=80&w=3536&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1715366468291-af34067b42a4?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1704856480956-98ff431761fb?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1621573203316-4f074b0d1f62?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 280,
     location: "Honolulu, HI",
@@ -236,10 +340,18 @@ const sampleListings = [
   {
     id: 14,
     title: "Charming Vineyard Cottage",
-    description: "Escape to the countryside in this charming vineyard cottage. Perfect for a peaceful getaway with beautiful views and outdoor activities. The cottage features a cozy interior, a fully equipped kitchen, and a lovely garden. Enjoy wine tasting, hiking, and exploring the local vineyards and markets. Ideal for couples or families looking to escape the hustle and bustle of city life.",
+    description:
+      "Escape to the countryside in this charming vineyard cottage. Perfect for a peaceful getaway with beautiful views and outdoor activities. The cottage features a cozy interior, a fully equipped kitchen, and a lovely garden. Enjoy wine tasting, hiking, and exploring the local vineyards and markets. Ideal for couples or families looking to escape the hustle and bustle of city life.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1572553525232-2bdaf63b0f6c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1728986252707-912733531b8c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1649081752336-f60db3756c7b?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1669003950464-d1971232d363?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1692449759672-7e46ec27ea0a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1447154710289-bd43c04b44ad?q=80&w=3478&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1572553525232-2bdaf63b0f6c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1728986252707-912733531b8c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1649081752336-f60db3756c7b?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1669003950464-d1971232d363?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1692449759672-7e46ec27ea0a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1447154710289-bd43c04b44ad?q=80&w=3478&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 220,
     location: "Sonoma Valley, CA",
@@ -254,10 +366,18 @@ const sampleListings = [
   {
     id: 15,
     title: "Luxurious Ski Lodge",
-    description: "Experience the thrill of skiing in this luxurious ski lodge located in the mountains. Perfect for a winter getaway with stunning views and outdoor activities. The lodge features modern amenities, a private hot tub, and easy access to ski slopes. Ideal for relaxation and adventure. Enjoy skiing, snowboarding, and exploring the local area.",
+    description:
+      "Experience the thrill of skiing in this luxurious ski lodge located in the mountains. Perfect for a winter getaway with stunning views and outdoor activities. The lodge features modern amenities, a private hot tub, and easy access to ski slopes. Ideal for relaxation and adventure. Enjoy skiing, snowboarding, and exploring the local area.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1702260580455-18167d2695a5?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1539667468225-eebb663053e6?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1551714757-3443dd4a383f?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1591620529114-d6ed42322835?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1735400245442-8985c8e336a4?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1580869506736-c444e1320828?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1702260580455-18167d2695a5?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1539667468225-eebb663053e6?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1551714757-3443dd4a383f?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1591620529114-d6ed42322835?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1735400245442-8985c8e336a4?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1580869506736-c444e1320828?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 350,
     location: "Whistler, BC",
@@ -272,10 +392,18 @@ const sampleListings = [
   {
     id: 16,
     title: "Chic Urban Loft",
-    description: "Stay in this chic urban loft located in a trendy neighborhood. Close to cafes, shops, and cultural attractions. The loft features modern decor, high ceilings, and large windows with city views. Ideal for young professionals or couples looking for a vibrant city experience. Enjoy the local art scene, nightlife, and diverse dining options.",
+    description:
+      "Stay in this chic urban loft located in a trendy neighborhood. Close to cafes, shops, and cultural attractions. The loft features modern decor, high ceilings, and large windows with city views. Ideal for young professionals or couples looking for a vibrant city experience. Enjoy the local art scene, nightlife, and diverse dining options.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1565671826022-a7ac6f779b46?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1719774104603-49a6849d4390?q=80&w=3568&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1648949300095-951d90397149?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1612343803457-9794d3695729?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1693720117760-7c41b919f3db?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1680117576062-bf816f593dbc?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1565671826022-a7ac6f779b46?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1719774104603-49a6849d4390?q=80&w=3568&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1648949300095-951d90397149?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1612343803457-9794d3695729?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1693720117760-7c41b919f3db?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1680117576062-bf816f593dbc?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 220,
     location: "Los Angeles, CA",
@@ -290,10 +418,18 @@ const sampleListings = [
   {
     id: 17,
     title: "Charming Historic Home",
-    description: "Experience the charm of history in this beautiful historic home. Perfect for a family getaway or romantic retreat. The home features classic decor, a fully equipped kitchen, and a lovely garden. Ideal for relaxation and exploring the local area. Enjoy nearby attractions, local restaurants, and outdoor activities.",
+    description:
+      "Experience the charm of history in this beautiful historic home. Perfect for a family getaway or romantic retreat. The home features classic decor, a fully equipped kitchen, and a lovely garden. Ideal for relaxation and exploring the local area. Enjoy nearby attractions, local restaurants, and outdoor activities.",
     image: {
       filename: "listingimage",
-      url: ["https://plus.unsplash.com/premium_photo-1712685912275-943ff90aac7c?q=80&w=3020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1671229455344-a3b4f96c2c76?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1595798623727-e7c56310f69a?q=80&w=3624&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1601477534141-1984413a8805?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1647550033878-bbaaa71889fe?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1733084276142-ea9e3bb37b27?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://plus.unsplash.com/premium_photo-1712685912275-943ff90aac7c?q=80&w=3020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1671229455344-a3b4f96c2c76?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1595798623727-e7c56310f69a?q=80&w=3624&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1601477534141-1984413a8805?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1647550033878-bbaaa71889fe?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1733084276142-ea9e3bb37b27?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 250,
     location: "Savannah, GA",
@@ -308,10 +444,18 @@ const sampleListings = [
   {
     id: 18,
     title: "Modern Beachfront Villa",
-    description: "Relax in this modern beachfront villa with stunning ocean views. Perfect for a romantic getaway or family vacation. The villa features modern amenities, a private pool, and direct beach access. Ideal for relaxation and water activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
+    description:
+      "Relax in this modern beachfront villa with stunning ocean views. Perfect for a romantic getaway or family vacation. The villa features modern amenities, a private pool, and direct beach access. Ideal for relaxation and water activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1712885864409-7bba84039e8a?q=80&w=3412&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1582304152034-802f2c9e6c81?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1594485805743-8aee6a529d52?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1712885888323-cad597f0f689?q=80&w=3601&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1578008672184-3791d3068b75?q=80&w=3628&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1712885985364-5b3e9e465ed7?q=80&w=3382&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1712885864409-7bba84039e8a?q=80&w=3412&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1582304152034-802f2c9e6c81?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1594485805743-8aee6a529d52?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1712885888323-cad597f0f689?q=80&w=3601&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1578008672184-3791d3068b75?q=80&w=3628&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1712885985364-5b3e9e465ed7?q=80&w=3382&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Cabo San Lucas",
@@ -326,10 +470,18 @@ const sampleListings = [
   {
     id: 19,
     title: "Charming Coastal Cottage",
-    description: "Escape to the coast in this charming cottage with beautiful ocean views. Perfect for a romantic getaway or family vacation. The cottage features modern amenities, a cozy interior, and easy access to the beach. Ideal for relaxation and outdoor activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
+    description:
+      "Escape to the coast in this charming cottage with beautiful ocean views. Perfect for a romantic getaway or family vacation. The cottage features modern amenities, a cozy interior, and easy access to the beach. Ideal for relaxation and outdoor activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1648575751934-31cd6b92508c?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1560871889-cd11a2c54b27?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1650545836066-fbad0ef75450?q=80&w=3454&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1648575752542-3757777a45ec?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1653769363714-e439870e00da?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1653769467581-09e983eb6c5b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1648575751934-31cd6b92508c?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1560871889-cd11a2c54b27?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1650545836066-fbad0ef75450?q=80&w=3454&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1648575752542-3757777a45ec?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1653769363714-e439870e00da?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1653769467581-09e983eb6c5b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 250,
     location: "Cape Cod, MA",
@@ -344,10 +496,18 @@ const sampleListings = [
   {
     id: 20,
     title: "Luxurious Spa Retreat",
-    description: "Relax and rejuvenate in this luxurious spa retreat located in a serene environment. Perfect for a wellness getaway with stunning views and outdoor activities. The retreat features modern amenities, a private spa, and easy access to hiking trails. Ideal for relaxation and self-care. Enjoy spa treatments, yoga classes, and exploring the local area.",
+    description:
+      "Relax and rejuvenate in this luxurious spa retreat located in a serene environment. Perfect for a wellness getaway with stunning views and outdoor activities. The retreat features modern amenities, a private spa, and easy access to hiking trails. Ideal for relaxation and self-care. Enjoy spa treatments, yoga classes, and exploring the local area.",
     image: {
       filename: "listingimage",
-      url: ["https://plus.unsplash.com/premium_photo-1670897795477-d90d27804bbc?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1611425372234-82da596da836?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1609867019918-c185d3304740?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1707962688764-10e581218af0?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1590815949624-cf4a445748e6?q=80&w=3433&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1597362821240-de7496071ebc?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://plus.unsplash.com/premium_photo-1670897795477-d90d27804bbc?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1611425372234-82da596da836?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1609867019918-c185d3304740?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1707962688764-10e581218af0?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1590815949624-cf4a445748e6?q=80&w=3433&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1597362821240-de7496071ebc?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 500,
     location: "Sedona, AZ",
@@ -362,10 +522,18 @@ const sampleListings = [
   {
     id: 21,
     title: "Charming Historic Inn",
-    description: "Experience the charm of history in this beautiful historic inn. Perfect for a family getaway or romantic retreat. The inn features classic decor, a fully equipped kitchen, and a lovely garden. Ideal for relaxation and exploring the local area. Enjoy nearby attractions, local restaurants, and outdoor activities.",
+    description:
+      "Experience the charm of history in this beautiful historic inn. Perfect for a family getaway or romantic retreat. The inn features classic decor, a fully equipped kitchen, and a lovely garden. Ideal for relaxation and exploring the local area. Enjoy nearby attractions, local restaurants, and outdoor activities.",
     image: {
       filename: "listingimage",
-      url: ["https://plus.unsplash.com/premium_photo-1729541944543-25ab5aef257c?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1705615798182-2cac0b43784a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1601237078351-97b88774fe3c?q=80&w=3130&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1595465101126-8781d985adfc?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1602720434847-8cf6c2d6382d?q=80&w=3498&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1680799222166-8818d96f93f9?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://plus.unsplash.com/premium_photo-1729541944543-25ab5aef257c?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1705615798182-2cac0b43784a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1601237078351-97b88774fe3c?q=80&w=3130&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1595465101126-8781d985adfc?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1602720434847-8cf6c2d6382d?q=80&w=3498&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1680799222166-8818d96f93f9?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 250,
     location: "Charleston, SC",
@@ -380,10 +548,18 @@ const sampleListings = [
   {
     id: 22,
     title: "Stylish Urban Apartment",
-    description: "Stay in this stylish urban apartment located in a vibrant neighborhood. Close to cafes, shops, and cultural attractions. The apartment features modern decor, a fully equipped kitchen, and easy access to public transportation. Ideal for solo travelers or couples looking for a city adventure. Enjoy the local art scene, nightlife, and diverse dining options.",
+    description:
+      "Stay in this stylish urban apartment located in a vibrant neighborhood. Close to cafes, shops, and cultural attractions. The apartment features modern decor, a fully equipped kitchen, and easy access to public transportation. Ideal for solo travelers or couples looking for a city adventure. Enjoy the local art scene, nightlife, and diverse dining options.",
     image: {
       filename: "listingimage",
-      url: ["https://plus.unsplash.com/premium_photo-1694475393287-88027e0fbde4?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1728309312160-9347877b8615?q=80&w=3544&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1697730274767-04107db614a7?q=80&w=3475&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1539623370578-f64acff0d7ee?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1578010908802-cd7e5cd853c9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1728309312099-7e93dd4d00ed?q=80&w=3544&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://plus.unsplash.com/premium_photo-1694475393287-88027e0fbde4?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1728309312160-9347877b8615?q=80&w=3544&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1697730274767-04107db614a7?q=80&w=3475&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1539623370578-f64acff0d7ee?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1578010908802-cd7e5cd853c9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1728309312099-7e93dd4d00ed?q=80&w=3544&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 220,
     location: "Toronto, ON",
@@ -398,10 +574,18 @@ const sampleListings = [
   {
     id: 23,
     title: "Charming Mountain Lodge",
-    description: "Experience the beauty of the mountains in this charming lodge. Perfect for a winter getaway with stunning views and outdoor activities. The lodge features modern amenities, a cozy interior, and easy access to ski slopes. Ideal for relaxation and adventure. Enjoy skiing, snowboarding, and exploring the local area.",
+    description:
+      "Experience the beauty of the mountains in this charming lodge. Perfect for a winter getaway with stunning views and outdoor activities. The lodge features modern amenities, a cozy interior, and easy access to ski slopes. Ideal for relaxation and adventure. Enjoy skiing, snowboarding, and exploring the local area.",
     image: {
       filename: "listingimage",
-      url: ["https://plus.unsplash.com/premium_photo-1738078691598-13ad0fed3308?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1743430366056-168035378f13?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1716671828620-743a737ef7e8?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1659380868739-d4aea9772f34?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1720801954270-b39334040de9?q=80&w=3429&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1735595018621-9a6c12f1b1eb?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://plus.unsplash.com/premium_photo-1738078691598-13ad0fed3308?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1743430366056-168035378f13?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1716671828620-743a737ef7e8?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1659380868739-d4aea9772f34?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1720801954270-b39334040de9?q=80&w=3429&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1735595018621-9a6c12f1b1eb?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 350,
     location: "Aspen, CO",
@@ -416,10 +600,18 @@ const sampleListings = [
   {
     id: 24,
     title: "Luxurious Oceanfront Villa",
-    description: "Relax in this luxurious oceanfront villa with stunning views. Perfect for a romantic getaway or family vacation. The villa features modern amenities, a private pool, and direct beach access. Ideal for relaxation and water activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
+    description:
+      "Relax in this luxurious oceanfront villa with stunning views. Perfect for a romantic getaway or family vacation. The villa features modern amenities, a private pool, and direct beach access. Ideal for relaxation and water activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
     image: {
       filename: "listingimage",
-      url: ["https://plus.unsplash.com/premium_photo-1666432045848-3fdbb2c74531?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1516815231560-8f41ec531527?q=80&w=3534&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?q=80&w=3433&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1540202404-a2f29016b523?q=80&w=3433&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1549248166-7a3b3ac4ab66?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=3546&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://plus.unsplash.com/premium_photo-1666432045848-3fdbb2c74531?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1516815231560-8f41ec531527?q=80&w=3534&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?q=80&w=3433&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1540202404-a2f29016b523?q=80&w=3433&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1549248166-7a3b3ac4ab66?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=3546&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 500,
     location: "Maldives",
@@ -434,10 +626,18 @@ const sampleListings = [
   {
     id: 25,
     title: "Charming Coastal Retreat",
-    description: "Escape to the coast in this charming retreat with beautiful ocean views. Perfect for a romantic getaway or family vacation. The retreat features modern amenities, a cozy interior, and easy access to the beach. Ideal for relaxation and outdoor activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
+    description:
+      "Escape to the coast in this charming retreat with beautiful ocean views. Perfect for a romantic getaway or family vacation. The retreat features modern amenities, a cozy interior, and easy access to the beach. Ideal for relaxation and outdoor activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1563121625-969780a24e77?q=80&w=3496&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1562053096-6981ff2a1395?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1605241995528-87e01ffcbd1f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1564627334137-f477a3a8588e?q=80&w=3428&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1626047541919-bce629b71030?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1576007752394-0982cd7fad58?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1563121625-969780a24e77?q=80&w=3496&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1562053096-6981ff2a1395?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1605241995528-87e01ffcbd1f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1564627334137-f477a3a8588e?q=80&w=3428&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1626047541919-bce629b71030?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1576007752394-0982cd7fad58?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 250,
     location: "Maui, HI",
@@ -452,10 +652,18 @@ const sampleListings = [
   {
     id: 26,
     title: "Luxurious Spa Resort",
-    description: "Relax and rejuvenate in this luxurious spa resort located in a serene environment. Perfect for a wellness getaway with stunning views and outdoor activities. The resort features modern amenities, a private spa, and easy access to hiking trails. Ideal for relaxation and self-care. Enjoy spa treatments, yoga classes, and exploring the local area.",
+    description:
+      "Relax and rejuvenate in this luxurious spa resort located in a serene environment. Perfect for a wellness getaway with stunning views and outdoor activities. The resort features modern amenities, a private spa, and easy access to hiking trails. Ideal for relaxation and self-care. Enjoy spa treatments, yoga classes, and exploring the local area.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1595256875238-9c2111c52554?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1532408840957-031d8034aeef?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1580725869538-9b164c27c44f?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1652842183703-47c2f7bb8c3c?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1518232197542-9325c59ecac9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1706461168280-da6986cd91ec?q=80&w=3393&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1595256875238-9c2111c52554?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1532408840957-031d8034aeef?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1580725869538-9b164c27c44f?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1652842183703-47c2f7bb8c3c?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1518232197542-9325c59ecac9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1706461168280-da6986cd91ec?q=80&w=3393&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 500,
     location: "Bora Bora",
@@ -470,10 +678,18 @@ const sampleListings = [
   {
     id: 27,
     title: "Charming Historic Cottage",
-    description: "Experience the charm of history in this beautiful historic cottage. Perfect for a family getaway or romantic retreat. The cottage features classic decor, a fully equipped kitchen, and a lovely garden. Ideal for relaxation and exploring the local area. Enjoy nearby attractions, local restaurants, and outdoor activities.",
+    description:
+      "Experience the charm of history in this beautiful historic cottage. Perfect for a family getaway or romantic retreat. The cottage features classic decor, a fully equipped kitchen, and a lovely garden. Ideal for relaxation and exploring the local area. Enjoy nearby attractions, local restaurants, and outdoor activities.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1577985688864-67a3b0ef6dde?q=80&w=3130&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1680902084296-7ba2a7b3557c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1712245240110-eaffb661bb86?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1594437001318-2b5c7a9c7291?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1596916447091-d32a9d29666c?q=80&w=2926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1664062444636-8bde2179b9dd?q=80&w=3594&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1577985688864-67a3b0ef6dde?q=80&w=3130&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1680902084296-7ba2a7b3557c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1712245240110-eaffb661bb86?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1594437001318-2b5c7a9c7291?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1596916447091-d32a9d29666c?q=80&w=2926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1664062444636-8bde2179b9dd?q=80&w=3594&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 250,
     location: "New Orleans, LA",
@@ -488,10 +704,18 @@ const sampleListings = [
   {
     id: 28,
     title: "Stylish Urban Loft",
-    description: "Stay in this stylish urban loft located in a vibrant neighborhood. Close to cafes, shops, and cultural attractions. The loft features modern decor, high ceilings, and large windows with city views. Ideal for young professionals or couples looking for a vibrant city experience. Enjoy the local art scene, nightlife, and diverse dining options.",
+    description:
+      "Stay in this stylish urban loft located in a vibrant neighborhood. Close to cafes, shops, and cultural attractions. The loft features modern decor, high ceilings, and large windows with city views. Ideal for young professionals or couples looking for a vibrant city experience. Enjoy the local art scene, nightlife, and diverse dining options.",
     image: {
       filename: "listingimage",
-      url: ["https://plus.unsplash.com/premium_photo-1721671634787-29a4c29b76f5?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1721671634764-89ea581ab60c?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1575849020464-e68392eb52b1?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1583444339943-200f3d65a779?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1705615797999-cae9a5991d2f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1732142029568-605e2d534ac1?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://plus.unsplash.com/premium_photo-1721671634787-29a4c29b76f5?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1721671634764-89ea581ab60c?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1575849020464-e68392eb52b1?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1583444339943-200f3d65a779?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1705615797999-cae9a5991d2f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1732142029568-605e2d534ac1?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 220,
     location: "Seattle, WA",
@@ -506,10 +730,18 @@ const sampleListings = [
   {
     id: 29,
     title: "Charming Mountain Cabin",
-    description: "Escape to the mountains in this charming cabin surrounded by nature. Perfect for hiking, skiing, or simply relaxing by the fireplace. The cabin features rustic decor, a fully equipped kitchen, and a large deck with stunning mountain views. Ideal for couples or families looking for a peaceful retreat.",
+    description:
+      "Escape to the mountains in this charming cabin surrounded by nature. Perfect for hiking, skiing, or simply relaxing by the fireplace. The cabin features rustic decor, a fully equipped kitchen, and a large deck with stunning mountain views. Ideal for couples or families looking for a peaceful retreat.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1638848424383-c59f174814ac?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1588814895199-91cf6fd25d40?q=80&w=3264&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1722274594661-25193ca93a5a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1638206453193-c3f8f3978f71?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1693718467583-fec62b124b61?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1659588868408-d8c1b0103ee6?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1638848424383-c59f174814ac?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1588814895199-91cf6fd25d40?q=80&w=3264&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1722274594661-25193ca93a5a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1638206453193-c3f8f3978f71?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1693718467583-fec62b124b61?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1659588868408-d8c1b0103ee6?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 180,
     location: "Lake Louise",
@@ -524,10 +756,18 @@ const sampleListings = [
   {
     id: 30,
     title: "Luxurious Beachfront Villa",
-    description: "Relax in this luxurious beachfront villa with stunning ocean views. Perfect for a romantic getaway or family vacation. The villa features modern amenities, a private pool, and direct beach access. Ideal for relaxation and water activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
+    description:
+      "Relax in this luxurious beachfront villa with stunning ocean views. Perfect for a romantic getaway or family vacation. The villa features modern amenities, a private pool, and direct beach access. Ideal for relaxation and water activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
     image: {
       filename: "listingimage",
-      url: ["https://plus.unsplash.com/premium_photo-1681582960531-7b5de57fb276?q=80&w=3326&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1673627114831-72296089fb6d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1562428309-f97fc8e256e7?q=80&w=3536&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1585824435346-2b9f8246b115?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1697730113048-1903ddc36c58?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1658737739975-90c30ec92845?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://plus.unsplash.com/premium_photo-1681582960531-7b5de57fb276?q=80&w=3326&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1673627114831-72296089fb6d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1562428309-f97fc8e256e7?q=80&w=3536&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1585824435346-2b9f8246b115?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1697730113048-1903ddc36c58?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1658737739975-90c30ec92845?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 500,
     location: "Phuket Island",
@@ -542,10 +782,18 @@ const sampleListings = [
   {
     id: 31,
     title: "Charming Coastal Cottage",
-    description: "Escape to the coast in this charming cottage with beautiful ocean views. Perfect for a romantic getaway or family vacation. The cottage features modern amenities, a cozy interior, and easy access to the beach. Ideal for relaxation and outdoor activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
+    description:
+      "Escape to the coast in this charming cottage with beautiful ocean views. Perfect for a romantic getaway or family vacation. The cottage features modern amenities, a cozy interior, and easy access to the beach. Ideal for relaxation and outdoor activities. Explore the local marine life, enjoy water sports, or simply relax by the beach.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1721676447566-9a898db74c2b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1725329081187-0dcbeeb22d58?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1631390905176-6cf10f5e804c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1645892399945-bad477acd3e3?q=80&w=3622&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1722481038376-b1d34bbbd112?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1722024106742-0d363afe9a3c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1721676447566-9a898db74c2b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1725329081187-0dcbeeb22d58?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1631390905176-6cf10f5e804c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1645892399945-bad477acd3e3?q=80&w=3622&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1722481038376-b1d34bbbd112?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1722024106742-0d363afe9a3c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 250,
     location: "Key West, FL",
@@ -560,10 +808,18 @@ const sampleListings = [
   {
     id: 32,
     title: "Luxurious Spa Retreat",
-    description: "Relax and rejuvenate in this luxurious spa retreat located in a serene environment. Perfect for a wellness getaway with stunning views and outdoor activities. The retreat features modern amenities, a private spa, and easy access to hiking trails. Ideal for relaxation and self-care. Enjoy spa treatments, yoga classes, and exploring the local area.",
+    description:
+      "Relax and rejuvenate in this luxurious spa retreat located in a serene environment. Perfect for a wellness getaway with stunning views and outdoor activities. The retreat features modern amenities, a private spa, and easy access to hiking trails. Ideal for relaxation and self-care. Enjoy spa treatments, yoga classes, and exploring the local area.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1552598715-7eeb9232a2ac?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1621148998923-872e8157057a?q=80&w=2880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1661962262643-9d106f78406a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1623873133836-30fdaeaa7f9d?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1611978891391-c7e65da1b749?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1552598715-7eeb9232a2ac?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1621148998923-872e8157057a?q=80&w=2880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1661962262643-9d106f78406a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1623873133836-30fdaeaa7f9d?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1611978891391-c7e65da1b749?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 500,
     location: "Tuscany",
@@ -578,10 +834,18 @@ const sampleListings = [
   {
     id: 33,
     title: "Charming Historic Inn",
-    description: "Experience the charm of history in this beautiful historic inn. Perfect for a family getaway or romantic retreat. The inn features classic decor, a fully equipped kitchen, and a lovely garden. Ideal for relaxation and exploring the local area. Enjoy nearby attractions, local restaurants, and outdoor activities.",
+    description:
+      "Experience the charm of history in this beautiful historic inn. Perfect for a family getaway or romantic retreat. The inn features classic decor, a fully equipped kitchen, and a lovely garden. Ideal for relaxation and exploring the local area. Enjoy nearby attractions, local restaurants, and outdoor activities.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1657419214183-88ac769a86f2?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1582208789073-bdbf2968f2e4?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1693059976782-df722ecb745d?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1664547606611-9713f91e4e28?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1733084276142-ea9e3bb37b27?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1592857044671-428b9bb21c6d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1657419214183-88ac769a86f2?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1582208789073-bdbf2968f2e4?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1693059976782-df722ecb745d?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1664547606611-9713f91e4e28?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1733084276142-ea9e3bb37b27?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1592857044671-428b9bb21c6d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 250,
     location: "Savannah, GA",
@@ -596,10 +860,18 @@ const sampleListings = [
   {
     id: 34,
     title: "Stylish Urban Apartment",
-    description: "Stay in this stylish urban apartment located in a vibrant neighborhood. Close to cafes, shops, and cultural attractions. The apartment features modern decor, a fully equipped kitchen, and easy access to public transportation. Ideal for solo travelers or couples looking for a city adventure. Enjoy the local art scene, nightlife, and diverse dining options.",
+    description:
+      "Stay in this stylish urban apartment located in a vibrant neighborhood. Close to cafes, shops, and cultural attractions. The apartment features modern decor, a fully equipped kitchen, and easy access to public transportation. Ideal for solo travelers or couples looking for a city adventure. Enjoy the local art scene, nightlife, and diverse dining options.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1559407011-0df8dd5991d6?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1712171185603-c8cc8f0e9a7a?q=80&w=3042&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1555108004-a9183c23169e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1578494277722-4ebd3d3ab9b7?q=80&w=3520&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1663133780895-830bf5b2ca07?q=80&w=3433&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1612813049498-6fd7550a0c96?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1559407011-0df8dd5991d6?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1712171185603-c8cc8f0e9a7a?q=80&w=3042&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1555108004-a9183c23169e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1578494277722-4ebd3d3ab9b7?q=80&w=3520&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1663133780895-830bf5b2ca07?q=80&w=3433&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1612813049498-6fd7550a0c96?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 220,
     location: "Montreal",
@@ -614,10 +886,18 @@ const sampleListings = [
   {
     id: 35,
     title: "Charming Mountain Lodge",
-    description: "Experience the beauty of the mountains in this charming lodge. Perfect for a winter getaway with stunning views and outdoor activities. The lodge features modern amenities, a cozy interior, and easy access to ski slopes. Ideal for relaxation and adventure. Enjoy skiing, snowboarding, and exploring the local area.",
+    description:
+      "Experience the beauty of the mountains in this charming lodge. Perfect for a winter getaway with stunning views and outdoor activities. The lodge features modern amenities, a cozy interior, and easy access to ski slopes. Ideal for relaxation and adventure. Enjoy skiing, snowboarding, and exploring the local area.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1581259021841-a16d7c2a777d?q=80&w=3514&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=3422&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1558597879-04d6dfc5216d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1669750819731-027917ff651a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1672116453039-b84dc5f0e7f0?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1672116453118-5971acb7b93b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1581259021841-a16d7c2a777d?q=80&w=3514&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=3422&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1558597879-04d6dfc5216d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1669750819731-027917ff651a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1672116453039-b84dc5f0e7f0?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1672116453118-5971acb7b93b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 350,
     location: "Banff",
@@ -632,10 +912,18 @@ const sampleListings = [
   {
     id: 36,
     title: "Gambler's Paradise",
-    description: "Experience the thrill of Las Vegas in this luxurious suite located on the Strip. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to casinos and entertainment. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Las Vegas in this luxurious suite located on the Strip. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to casinos and entertainment. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1698812004257-938fac6c98b6?q=80&w=3544&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1671573576055-b6ac57f8ec51?q=80&w=3550&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1659449903119-752aa6bcac26?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1580479323966-b4045187d65c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1730301675333-504092888386?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1723586375652-b774d6c23f6b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1698812004257-938fac6c98b6?q=80&w=3544&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1671573576055-b6ac57f8ec51?q=80&w=3550&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1659449903119-752aa6bcac26?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1580479323966-b4045187d65c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1730301675333-504092888386?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1723586375652-b774d6c23f6b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Las Vegas, NV",
@@ -650,10 +938,18 @@ const sampleListings = [
   {
     id: 37,
     title: "Room in boutique hotel",
-    description: "Stay in a stylish room in a boutique hotel located in the heart of the city. Perfect for a weekend getaway or business trip. The hotel features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for solo travelers or couples looking for a city adventure. Enjoy the local art scene, nightlife, and diverse dining options.",
+    description:
+      "Stay in a stylish room in a boutique hotel located in the heart of the city. Perfect for a weekend getaway or business trip. The hotel features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for solo travelers or couples looking for a city adventure. Enjoy the local art scene, nightlife, and diverse dining options.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1695045088081-1f37125905a2?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1545981157-7b8b99ba3d86?q=80&w=3264&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1654960026311-eeb63772988f?q=80&w=2829&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1714738127719-5ec9957178b6?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1739036342260-5782ac493533?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1656008007511-812dd3fe5999?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      url: [
+        "https://images.unsplash.com/photo-1695045088081-1f37125905a2?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1545981157-7b8b99ba3d86?q=80&w=3264&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1654960026311-eeb63772988f?q=80&w=2829&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1714738127719-5ec9957178b6?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1739036342260-5782ac493533?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1656008007511-812dd3fe5999?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 220,
     location: "Sinaia",
@@ -668,10 +964,18 @@ const sampleListings = [
   {
     id: 38,
     title: "Bad Wimsbach-Neydharting",
-    description: "Experience the beauty of the mountains in this charming lodge. Perfect for a winter getaway with stunning views and outdoor activities. The lodge features modern amenities, a cozy interior, and easy access to ski slopes. Ideal for relaxation and adventure. Enjoy skiing, snowboarding, and exploring the local area.",
+    description:
+      "Experience the beauty of the mountains in this charming lodge. Perfect for a winter getaway with stunning views and outdoor activities. The lodge features modern amenities, a cozy interior, and easy access to ski slopes. Ideal for relaxation and adventure. Enjoy skiing, snowboarding, and exploring the local area.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1641440159564-ea1d533e8612?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1656937255523-784e3b753716?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1678822173512-83351c00a7cf?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1588326160314-2836dd814b04?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1723125189710-82ef9b5c8376?q=80&w=3395&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1616665896462-11102f54e545?q=80&w=3620&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1641440159564-ea1d533e8612?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1656937255523-784e3b753716?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1678822173512-83351c00a7cf?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1588326160314-2836dd814b04?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1723125189710-82ef9b5c8376?q=80&w=3395&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1616665896462-11102f54e545?q=80&w=3620&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 350,
     location: "Bad Wimsbach-Neydharting",
@@ -682,14 +986,22 @@ const sampleListings = [
     isLiked: false,
     isSaved: false,
     isBooked: false,
-  }, 
+  },
   {
     id: 39,
     title: "Castle in Acireale",
-    description: "Experience the charm of history in this beautiful castle. Perfect for a family getaway or romantic retreat. The castle features classic decor, a fully equipped kitchen, and a lovely garden. Ideal for relaxation and exploring the local area. Enjoy nearby attractions, local restaurants, and outdoor activities.",
+    description:
+      "Experience the charm of history in this beautiful castle. Perfect for a family getaway or romantic retreat. The castle features classic decor, a fully equipped kitchen, and a lovely garden. Ideal for relaxation and exploring the local area. Enjoy nearby attractions, local restaurants, and outdoor activities.",
     image: {
       filename: "listingimage",
-      url: ["https://plus.unsplash.com/premium_photo-1688480179675-8f211d16e9a1?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1654951100737-6d5085bdd064?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1660745469416-f21ee090f808?q=80&w=3534&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1609594744028-61266e5d71ce?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1693289539086-936e11fc44a2?q=80&w=3521&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1651441504626-03e1dc35190c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://plus.unsplash.com/premium_photo-1688480179675-8f211d16e9a1?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1654951100737-6d5085bdd064?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1660745469416-f21ee090f808?q=80&w=3534&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1609594744028-61266e5d71ce?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1693289539086-936e11fc44a2?q=80&w=3521&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1651441504626-03e1dc35190c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 250,
     location: "Acireale",
@@ -700,14 +1012,22 @@ const sampleListings = [
     isLiked: false,
     isSaved: false,
     isBooked: false,
-  }, 
+  },
   {
     id: 40,
     title: "Bunol's annual Fiesta - La Tomatina",
-    description: "Experience the thrill of Bunol's annual Fiesta - La Tomatina in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Bunol's annual Fiesta - La Tomatina in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1716727941843-3d8a6bb0ac6b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1660520015100-7dc54646eb0e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1739180452648-353a84d565dd?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1627341276191-94e6ba0e7959?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1705860008568-9cd88b2555e7?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1558533406-a48c49a56f25?q=80&w=3008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1716727941843-3d8a6bb0ac6b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1660520015100-7dc54646eb0e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1739180452648-353a84d565dd?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1627341276191-94e6ba0e7959?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1705860008568-9cd88b2555e7?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1558533406-a48c49a56f25?q=80&w=3008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Bunol",
@@ -718,14 +1038,22 @@ const sampleListings = [
     isLiked: false,
     isSaved: false,
     isBooked: false,
-  }, 
+  },
   {
     id: 41,
     title: "Room in boutique hotel",
-    description: "Stay in a stylish room in a boutique hotel located in the heart of the city. Perfect for a weekend getaway or business trip. The hotel features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for solo travelers or couples looking for a city adventure. Enjoy the local art scene, nightlife, and diverse dining options.",
+    description:
+      "Stay in a stylish room in a boutique hotel located in the heart of the city. Perfect for a weekend getaway or business trip. The hotel features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for solo travelers or couples looking for a city adventure. Enjoy the local art scene, nightlife, and diverse dining options.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1732046038811-ebafd482f3e3?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1676719289921-99fbe6a140f8?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1625579803813-e1ffceb02405?q=80&w=3378&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1656007776687-334d1c15924f?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1739149895255-6fcb9802912d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1668289615470-5f39b5e14e46?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1732046038811-ebafd482f3e3?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1676719289921-99fbe6a140f8?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1625579803813-e1ffceb02405?q=80&w=3378&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1656007776687-334d1c15924f?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1739149895255-6fcb9802912d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1668289615470-5f39b5e14e46?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 220,
     location: "Sinaia",
@@ -735,15 +1063,23 @@ const sampleListings = [
     amenities: ["Wi-Fi", "Air Conditioning", "Kitchen", "Parking"],
     isLiked: false,
     isSaved: false,
-    isBooked: false
-  }, 
+    isBooked: false,
+  },
   {
     id: 42,
     title: "Bad Wimsbach-Neydharting",
-    description: "Experience the beauty of the mountains in this charming lodge. Perfect for a winter getaway with stunning views and outdoor activities. The lodge features modern amenities, a cozy interior, and easy access to ski slopes. Ideal for relaxation and adventure. Enjoy skiing, snowboarding, and exploring the local area.",
+    description:
+      "Experience the beauty of the mountains in this charming lodge. Perfect for a winter getaway with stunning views and outdoor activities. The lodge features modern amenities, a cozy interior, and easy access to ski slopes. Ideal for relaxation and adventure. Enjoy skiing, snowboarding, and exploring the local area.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1666557477306-4b8b54cfdafd?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1560418361-d57945a2952d?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1679916744431-216927f655a4?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1586812367172-afe2fecab27c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1709497185035-f2a95d203e08?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1668599086888-481798dea8d5?q=80&w=3400&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1666557477306-4b8b54cfdafd?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1560418361-d57945a2952d?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1679916744431-216927f655a4?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1586812367172-afe2fecab27c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1709497185035-f2a95d203e08?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1668599086888-481798dea8d5?q=80&w=3400&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 350,
     location: "Bad Wimsbach-Neydharting",
@@ -753,15 +1089,23 @@ const sampleListings = [
     amenities: ["Wi-Fi", "Air Conditioning", "Hot Tub", "Ski Access"],
     isLiked: false,
     isSaved: false,
-    isBooked: false
+    isBooked: false,
   },
   {
     id: 43,
     title: "The Great Wall of China",
-    description: "Experience the charm of history in this beautiful castle. Perfect for a family getaway or romantic retreat. The castle features classic decor, a fully equipped kitchen, and a lovely garden. Ideal for relaxation and exploring the local area. Enjoy nearby attractions, local restaurants, and outdoor activities.", 
+    description:
+      "Experience the charm of history in this beautiful castle. Perfect for a family getaway or romantic retreat. The castle features classic decor, a fully equipped kitchen, and a lovely garden. Ideal for relaxation and exploring the local area. Enjoy nearby attractions, local restaurants, and outdoor activities.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1608037521277-154cd1b89191?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1712664347089-6be82d02a2f0?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1686807309124-c797d0d2610c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1676468708507-d7970ce6445b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1712976753514-a2a385bf728e?q=80&w=3415&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1608037521277-154cd1b89191?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1712664347089-6be82d02a2f0?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1686807309124-c797d0d2610c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1676468708507-d7970ce6445b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1712976753514-a2a385bf728e?q=80&w=3415&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 250,
     location: "Beijing",
@@ -771,15 +1115,23 @@ const sampleListings = [
     amenities: ["Wi-Fi", "Fireplace", "Kitchen", "Parking", "Garden"],
     isLiked: false,
     isSaved: false,
-    isBooked: false  
-  }, 
+    isBooked: false,
+  },
   {
     id: 44,
     title: "Brazilian Carnival",
-    description: "Experience the thrill of Brazilian Carnival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Brazilian Carnival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?q=80&w=3626&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1679689962301-adfa3c77d624?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1522008629172-0c17aa47d1ee?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1632184078944-b8a9cd828a57?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1576547849475-57662ff255ec?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1604664474914-39713aa96dbf?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?q=80&w=3626&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1679689962301-adfa3c77d624?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1522008629172-0c17aa47d1ee?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1632184078944-b8a9cd828a57?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1576547849475-57662ff255ec?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1604664474914-39713aa96dbf?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Rio de Janeiro",
@@ -789,15 +1141,23 @@ const sampleListings = [
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
-    isBooked: false
+    isBooked: false,
   },
   {
     id: 45,
     title: "FootBall World Cup in Qatar",
-    description: "Experience the thrill of Football World Cup in Qatar in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Football World Cup in Qatar in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1700901742651-6b353164caf3?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1647849402208-01775e9c9fb3?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1683334086821-62738dd333ce?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1689758919422-4cbcd14313ce?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1741159273037-a8bb9f22fddf?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1626455848883-eb1c5203d379?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1700901742651-6b353164caf3?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1647849402208-01775e9c9fb3?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1683334086821-62738dd333ce?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1689758919422-4cbcd14313ce?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1741159273037-a8bb9f22fddf?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1626455848883-eb1c5203d379?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Doha",
@@ -807,15 +1167,23 @@ const sampleListings = [
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
-    isBooked: false
-  }, 
+    isBooked: false,
+  },
   {
     id: 46,
     title: "Tallinn Festival",
-    description: "Experience the thrill of Tallinn Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Tallinn Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1709862366377-54b16f3e51f9?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1452868195396-89c1af3b1b2e?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1617900019202-ea44bdc2afc3?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1570302156974-8cca80c1f901?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1548267839-d1f27b83b6d3?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1592859858762-43e59d2ca8e6?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1709862366377-54b16f3e51f9?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1452868195396-89c1af3b1b2e?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1617900019202-ea44bdc2afc3?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1570302156974-8cca80c1f901?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1548267839-d1f27b83b6d3?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1592859858762-43e59d2ca8e6?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Tallinn",
@@ -825,15 +1193,23 @@ const sampleListings = [
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
-    isBooked: false
+    isBooked: false,
   },
   {
     id: 47,
     title: "Argentinian Tango Festival",
-    description: "Experience the thrill of Argentinian Tango Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Argentinian Tango Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1610678318647-ea23dccf1a9d?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","https://images.unsplash.com/flagged/photo-1571684387351-60533c09f515?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1677110758391-b458bc072ebf?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1711472365307-cc0ff86c3943?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1582838840889-98a78a4a6797?q=80&w=3502&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1739833131265-9a0f6b5b4851?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1610678318647-ea23dccf1a9d?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/flagged/photo-1571684387351-60533c09f515?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1677110758391-b458bc072ebf?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1711472365307-cc0ff86c3943?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1582838840889-98a78a4a6797?q=80&w=3502&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1739833131265-9a0f6b5b4851?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Buenos Aires",
@@ -843,16 +1219,24 @@ const sampleListings = [
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
-    isBooked: false
+    isBooked: false,
   },
   {
     id: 48,
     title: "Chilean Wine Festival",
-    description: "Experience the thrill of Chilean Wine Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Chilean Wine Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1745554488911-2149ee18693d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1738620112394-41d44fdeff66?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1662312866200-3454c5b502a9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1667745992583-015851b0d7a8?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1601598276252-08c9fc5d0b50?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1624712639372-cef4374be413?q=80&w=3384&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
-    },  
+      url: [
+        "https://images.unsplash.com/photo-1745554488911-2149ee18693d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1738620112394-41d44fdeff66?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1662312866200-3454c5b502a9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1667745992583-015851b0d7a8?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1601598276252-08c9fc5d0b50?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1624712639372-cef4374be413?q=80&w=3384&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
+    },
     price: 400,
     location: "Santiago",
     country: "Chile",
@@ -861,51 +1245,75 @@ const sampleListings = [
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
-    isBooked: false 
+    isBooked: false,
   },
   {
     id: 49,
     title: "Bhutanese Festival",
-    description: "Experience the thrill of Bhutanese Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Bhutanese Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1667984866675-5daf6fcb8175?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1668587629217-7567ae4f7b4d?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1661952578770-79010299a9f9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1580649851649-992b28f56e98?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1566020589263-891b809ebf4b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1622778893561-36c7b94a63c1?q=80&w=3008&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1667984866675-5daf6fcb8175?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1668587629217-7567ae4f7b4d?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1661952578770-79010299a9f9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1580649851649-992b28f56e98?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1566020589263-891b809ebf4b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1622778893561-36c7b94a63c1?q=80&w=3008&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Thimphu",
     country: "Bhutan",
     rating: 4.9,
-    reviews: 300, 
+    reviews: 300,
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
-    isBooked: false
+    isBooked: false,
   },
   {
     id: 50,
     title: "Kashmir Festival",
-    description: "Experience the thrill of Kashmir Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Kashmir Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1715457573748-8e8a70b2c1be?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1627894485200-b92fb4353967?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1646204894165-95ed03d988ad?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1568889753852-196c487a536e?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1601047095317-25a0ad9933f1?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1715457573748-8e8a70b2c1be?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1627894485200-b92fb4353967?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1646204894165-95ed03d988ad?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1568889753852-196c487a536e?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1601047095317-25a0ad9933f1?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Srinagar",
     country: "India",
-    rating: 4.9,    
-    reviews: 300, 
+    rating: 4.9,
+    reviews: 300,
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
-    isBooked: false
+    isBooked: false,
   },
   {
     id: 51,
     title: "Turkey Festival",
-    description: "Experience the thrill of Turkey Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Turkey Festival in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1510253687831-0f982d7862fc?q=80&w=3534&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1518084823714-2f59a7315a39?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1580139644189-14a08f064717?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1623621534850-d325a1980c7e?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1490079397423-a3931fd75940?q=80&w=3628&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1605022936264-d57a9e20942a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1510253687831-0f982d7862fc?q=80&w=3534&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1518084823714-2f59a7315a39?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1580139644189-14a08f064717?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1623621534850-d325a1980c7e?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1490079397423-a3931fd75940?q=80&w=3628&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1605022936264-d57a9e20942a?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Istanbul",
@@ -915,33 +1323,49 @@ const sampleListings = [
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
-    isBooked: false
+    isBooked: false,
   },
   {
     id: 52,
     title: "Switzerland Country in Europe",
-    description: "Experience the thrill of Switzerland Country in Europe in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Switzerland Country in Europe in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1744178386519-d0836189a8ef?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1583132831599-1aeab5ff0e55?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1738600387873-481b87e15fca?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1705361819838-b249bad5514f?q=80&w=3365&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1716964718700-3d817c673186?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1668901406396-359e5dccd84b?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1744178386519-d0836189a8ef?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1583132831599-1aeab5ff0e55?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1738600387873-481b87e15fca?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1705361819838-b249bad5514f?q=80&w=3365&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1716964718700-3d817c673186?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1668901406396-359e5dccd84b?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Zurich",
-    country: "Switzerland",     
+    country: "Switzerland",
     rating: 4.9,
     reviews: 300,
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
-    isBooked: false
+    isBooked: false,
   },
   {
     id: 53,
     title: "Queenstown in New Zealand",
-    description: "Experience the thrill of Queenstown Country in New Zealand in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
-    image: {  
+    description:
+      "Experience the thrill of Queenstown Country in New Zealand in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1740658649996-690a4907858a?q=80&w=3504&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1740658642224-3c37bab6e56d?q=80&w=3504&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1512017615494-fdf6146235ff?q=80&w=3536&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1740657476863-9fd0dbbbc9c2?q=80&w=3504&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1710348672935-ffddef5b03a7?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1496429538646-0f0b0458cedd?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1740658649996-690a4907858a?q=80&w=3504&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1740658642224-3c37bab6e56d?q=80&w=3504&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1512017615494-fdf6146235ff?q=80&w=3536&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1740657476863-9fd0dbbbc9c2?q=80&w=3504&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1710348672935-ffddef5b03a7?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1496429538646-0f0b0458cedd?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Queenstown",
@@ -951,33 +1375,49 @@ const sampleListings = [
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
-    isBooked: false
-  }, 
+    isBooked: false,
+  },
   {
     id: 54,
     title: "Monte Carlo in Monaco",
-    description: "Experience the thrill of Monte Carlo Country in Monaco in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Monte Carlo Country in Monaco in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1526675261026-b83db55e4035?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1632403826558-4d51fbe432d9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1659557267802-39507512f78e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1744366807017-e3de50aef30b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1660153857443-17711f91e247?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1716287724762-27875accce5f?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1526675261026-b83db55e4035?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1632403826558-4d51fbe432d9?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1659557267802-39507512f78e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1744366807017-e3de50aef30b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1660153857443-17711f91e247?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1716287724762-27875accce5f?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Monte Carlo",
-    country: "Monaco",  
+    country: "Monaco",
     rating: 4.9,
     reviews: 300,
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
-    isBooked: false
-  }, 
+    isBooked: false,
+  },
   {
     id: 55,
     title: "Bejing in China",
-    description: "Experience the thrill of Bejing in China in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Bejing in China in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1584872589930-e99fe5bf4408?q=80&w=3324&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1543158015-04650a9d832a?q=80&w=3433&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1614555383820-941c466f1b52?q=80&w=3624&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1603286661393-b62e79ed564b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1706066643065-23242de5ea79?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1715320555580-521db1a426e1?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1584872589930-e99fe5bf4408?q=80&w=3324&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1543158015-04650a9d832a?q=80&w=3433&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1614555383820-941c466f1b52?q=80&w=3624&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1603286661393-b62e79ed564b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1706066643065-23242de5ea79?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1715320555580-521db1a426e1?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Bejing",
@@ -987,15 +1427,23 @@ const sampleListings = [
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
-    isBooked: false
-  }, 
+    isBooked: false,
+  },
   {
     id: 56,
     title: "Tokyo in Japan",
-    description: "Experience the thrill of Tokyo in Japan in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Tokyo in Japan in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1711181138064-43c2e2239a45?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1679097844839-ab66200a1bbd?q=80&w=3433&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1634110555127-12685786b487?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1671987343389-38d804949117?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1702887010536-b1a5e8ad6b3b?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1711615048532-489c892a288e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1711181138064-43c2e2239a45?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1679097844839-ab66200a1bbd?q=80&w=3433&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1634110555127-12685786b487?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1671987343389-38d804949117?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1702887010536-b1a5e8ad6b3b?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1711615048532-489c892a288e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Tokyo",
@@ -1005,15 +1453,23 @@ const sampleListings = [
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
-    isBooked: false
-  }, 
+    isBooked: false,
+  },
   {
     id: 57,
     title: "Seoul in South Korea",
-    description: "Experience the thrill of Seoul in South Korea in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Seoul in South Korea in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1719820905709-9858ec199d41?q=80&w=3629&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1711902048407-9cbab08c58a5?q=80&w=3544&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1578648693974-9438ebc063bb?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1578648574417-15941a4751bf?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1662280709023-84c475d3c81f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1639905808227-4c987d4a71bd?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1719820905709-9858ec199d41?q=80&w=3629&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1711902048407-9cbab08c58a5?q=80&w=3544&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1578648693974-9438ebc063bb?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1578648574417-15941a4751bf?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1662280709023-84c475d3c81f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1639905808227-4c987d4a71bd?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Seoul",
@@ -1023,15 +1479,23 @@ const sampleListings = [
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
-    isBooked: false
+    isBooked: false,
   },
   {
     id: 58,
     title: "Mount Averest in Nepal",
-    description: "Experience the thrill of Mount Averest in Nepal in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Mount Averest in Nepal in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1615462067592-d7ae31015538?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1664690174670-d4d733a41223?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1559578054-19bcb3e215d6?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1697730400710-9e565f54869e?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1720810757171-ff8e697a9f13?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1732737295442-59b19f129544?q=80&w=3383&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1615462067592-d7ae31015538?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1664690174670-d4d733a41223?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1559578054-19bcb3e215d6?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1697730400710-9e565f54869e?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1720810757171-ff8e697a9f13?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1732737295442-59b19f129544?q=80&w=3383&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Kathmandu",
@@ -1040,16 +1504,24 @@ const sampleListings = [
     reviews: 300,
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
-    isSaved: false, 
-    isBooked: false
+    isSaved: false,
+    isBooked: false,
   },
   {
     id: 59,
     title: "Amazon Rainforest in Brazil",
-    description: "Experience the thrill of Amazon Rainforest in Brazil in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Amazon Rainforest in Brazil in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1695774863742-67ef15304c50?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1700753146836-7091d0b28635?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1700753618948-79f177a3b19e?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1570970692742-dd7523a4f3c5?q=80&w=3544&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1710136847057-e800a839d554?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1653675838537-bd00aa16cbca?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1695774863742-67ef15304c50?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1700753146836-7091d0b28635?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1700753618948-79f177a3b19e?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1570970692742-dd7523a4f3c5?q=80&w=3544&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1710136847057-e800a839d554?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1653675838537-bd00aa16cbca?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Manaus",
@@ -1059,15 +1531,23 @@ const sampleListings = [
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
     isSaved: false,
-    isBooked: false
-  }, 
+    isBooked: false,
+  },
   {
     id: 60,
     title: "Pyramids of Giza in Egypt",
-    description: "Experience the thrill of Pyramids of Giza in Egypt in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
+    description:
+      "Experience the thrill of Pyramids of Giza in Egypt in this luxurious suite located in the heart of the city. Perfect for a weekend getaway or special occasion. The suite features modern decor, a fully equipped kitchen, and easy access to local attractions. Ideal for couples or friends looking for a vibrant city experience. Enjoy the nightlife, dining, and world-class shows.",
     image: {
       filename: "listingimage",
-      url: ["https://images.unsplash.com/photo-1684457717962-09c4c4347c13?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1613546190879-6657d93839e6?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1722595053086-eb36d4c3a6f5?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1628503218283-6ddeac69dfea?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1661906977668-ece2c96385c4?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1626692880062-35c360fb6afc?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
+      url: [
+        "https://images.unsplash.com/photo-1684457717962-09c4c4347c13?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1613546190879-6657d93839e6?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1722595053086-eb36d4c3a6f5?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1628503218283-6ddeac69dfea?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1661906977668-ece2c96385c4?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1626692880062-35c360fb6afc?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ],
     },
     price: 400,
     location: "Cairo",
@@ -1076,9 +1556,9 @@ const sampleListings = [
     reviews: 300,
     amenities: ["Wi-Fi", "Air Conditioning", "Casino Access", "Pool"],
     isLiked: false,
-    isSaved: false, 
-    isBooked: false
-  }
+    isSaved: false,
+    isBooked: false,
+  },
 ];
 
 module.exports = { data: sampleListings };
