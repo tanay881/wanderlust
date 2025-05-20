@@ -4,19 +4,24 @@ const Listing = require("./models/listing");
 const path = require("path");
 const methodOverride = require("method-override");
 const ejsMate = require("ejs-mate");
+require("dotenv").config();
 
 // express configuration
 const app = express();
 
 // mongoDB connection
-main()
+establishDatabaseConnection()
   .then(() => {
     console.log("MongoDB connected");
   })
   .catch((err) => console.log(err));
 
-async function main() {
-  await mongoose.connect("mongodb://127.0.0.1:27017/wanderlust");
+async function establishDatabaseConnection() {
+  const databaseUrl = process.env.DATABASE_URL;
+  if (!databaseUrl) {
+    throw new Error("Database connection could not established");
+  }
+  await mongoose.connect(databaseUrl);
 }
 
 // view engine setup
@@ -68,7 +73,7 @@ app.get("/", (req, res) => {
 // get all listings route / index.ejs
 app.get("/listings", async (req, res) => {
   const allListings = await Listing.find({});
-  const pageNo = req.query.page;
+  const pageNo = req.query.page ?? 1;
 
   if (!pageNo) {
     return res.render("./listings/index.ejs", { allListings });
