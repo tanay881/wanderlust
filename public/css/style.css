@@ -33,11 +33,11 @@ body {
 }
 
 .allCards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  justify-items: center;
+  gap: 1rem 0;
+  padding: 1.5rem 1rem;
 }
 
 .card {
@@ -60,6 +60,12 @@ body {
 .card-details {
   max-height: 25%;
   line-height: 0.5rem;
+}
+
+.pagination {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
 }
 
 .amenities-list {

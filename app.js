@@ -67,14 +67,13 @@ app.get("/", (req, res) => {
 
 // get all listings route / index.ejs
 app.get("/listings", async (req, res) => {
-  console.log(req.query.page);
   const allListings = await Listing.find({});
   const pageNo = req.query.page;
 
   if (!pageNo) {
     return res.render("./listings/index.ejs", { allListings });
   }
-  const contentPerPage = 25;
+  const contentPerPage = 20;
   const startingIndex = (pageNo - 1) * contentPerPage;
   const endingIndex = pageNo * contentPerPage;
   const limitedListings = allListings.slice(startingIndex, endingIndex);
