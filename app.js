@@ -78,7 +78,16 @@ app.get("/listings", async (req, res) => {
   const contentPerPage = 20;
 
   const totalNoOfRecordsInDB = await Listing.find({}).countDocuments().exec();
-  const totalNoPage = totalNoOfRecordsInDB / contentPerPage;
+  const restOfTheData = totalNoOfRecordsInDB % contentPerPage
+
+  let totalNoPage
+  if (restOfTheData === 0) {
+    totalNoPage =
+      totalNoOfRecordsInDB / contentPerPage;
+  } else {
+    totalNoPage =
+      (totalNoOfRecordsInDB / contentPerPage) + 1;
+  }
 
   console.log(totalNoPage);
 
