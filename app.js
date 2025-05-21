@@ -72,18 +72,24 @@ app.get("/", (req, res) => {
 
 // get all listings route / index.ejs
 app.get("/listings", async (req, res) => {
-  const allListings = await Listing.find({});
   const pageNo = req.query.page ?? 1;
 
-  if (!pageNo) {
-    return res.render("./listings/index.ejs", { allListings });
-  }
+  // no of content per page to show
   const contentPerPage = 20;
-  const startingIndex = (pageNo - 1) * contentPerPage;
-  const endingIndex = pageNo * contentPerPage;
-  const limitedListings = allListings.slice(startingIndex, endingIndex);
 
-  return res.render("./listings/index.ejs", { allListings: limitedListings });
+  const totalNoOfRecordsInDB = await Listing.find({}).countDocuments().exec();
+  const totalNoPage = totalNoOfRecordsInDB / contentPerPage;
+
+  console.log(totalNoPage);
+
+  // get the content to show from
+  const startingIndex = (pageNo - 1) * contentPerPage;
+
+  const allListings = await Listing.find({})
+    .skip(startingIndex)
+    .limit(contentPerPage);
+
+  return res.render("./listings/index.ejs", { allListings, totalNoPage });
 });
 
 // new route

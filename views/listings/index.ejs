@@ -26,11 +26,17 @@
     <!-- Adding Pagination   -->
       <nav aria-label="Page navigation example" class="pagination">
         <ul class="pagination">
-          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <% for (let i = 1; i <= totalNoPage; i++) { %>
+              <!-- <li><%= i %></li> -->
+              <li class="page-item"><a class="page-link" href="/listings?page=<%= i %>">
+                <%= i %></a>
+              </li>
+            <% } %>
+          <!-- <li class="page-item"><a class="page-link" href="#">Previous</a></li>
           <li class="page-item"><a class="page-link" href="/listings?page=1">1</a></li>
           <li class="page-item"><a class="page-link" href="/listings?page=2">2</a></li>
           <li class="page-item"><a class="page-link" href="/listings?page=3">3</a></li>
-          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li> -->
         </ul>
       </nav>
   </body>
